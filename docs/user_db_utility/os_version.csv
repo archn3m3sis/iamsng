@@ -1,0 +1,101 @@
+os_version_id,os_version_name,os_version_description
+1,Windows 11,Latest consumer and business Windows version released in 2021 with redesigned interface
+2,Windows 10,Long-term Windows version released in 2015 with continuous updates and widespread adoption
+3,Windows 8.1,Updated version of Windows 8 released in 2013 with improved Start menu functionality
+4,Windows 8,Windows version released in 2012 featuring Metro UI and touch-focused design
+5,Windows 7,Popular Windows version released in 2009 known for stability and performance
+6,Windows Vista,Windows version released in 2006 introducing Aero interface and enhanced security
+7,Windows XP,Highly successful Windows version released in 2001 with extended support lifecycle
+8,Windows 2000,Business-focused Windows NT version released in 2000 for professional workstations
+9,Windows ME,Consumer Windows version released in 2000 as successor to Windows 98
+10,Windows 98,Consumer Windows version released in 1998 with improved USB and internet support
+11,Windows 95,Revolutionary Windows version released in 1995 introducing Start menu and taskbar
+12,Windows NT 4.0,Business Windows version released in 1996 based on NT kernel architecture
+13,Windows 3.1,Early graphical Windows version released in 1992 running on MS-DOS
+14,Windows Server 2022,Latest Windows Server version released in 2021 for datacenter and hybrid cloud
+15,Windows Server 2019,Windows Server version released in 2018 with enhanced hybrid cloud capabilities
+16,Windows Server 2016,Windows Server version released in 2016 introducing containers and nano server
+17,Windows Server 2012 R2,Updated server version released in 2013 with cloud and virtualization enhancements
+18,Windows Server 2012,Windows Server version released in 2012 with Hyper-V improvements
+19,Windows Server 2008 R2,Server version released in 2009 exclusively for 64-bit systems
+20,Windows Server 2008,Server version released in 2008 based on Windows Vista codebase
+21,Windows Server 2003,Server version released in 2003 replacing Windows 2000 Server
+22,macOS Sequoia 15,macOS version 15 released in 2024 with AI and continuity features
+23,macOS Sonoma 14,macOS version 14 released in 2023 with widget enhancements and video conferencing features
+24,macOS Ventura 13,macOS version 13 released in 2022 with Stage Manager and Continuity Camera
+25,macOS Monterey 12,macOS version 12 released in 2021 with Universal Control and SharePlay
+26,macOS Big Sur 11,macOS version 11 released in 2020 with redesigned interface and Apple Silicon support
+27,macOS Catalina 10.15,macOS version released in 2019 replacing iTunes with separate apps
+28,macOS Mojave 10.14,macOS version released in 2018 introducing Dark Mode and Stacks
+29,macOS High Sierra 10.13,macOS version released in 2017 with APFS file system
+30,macOS Sierra 10.12,macOS version released in 2016 introducing Siri to Mac
+31,OS X El Capitan 10.11,OS X version released in 2015 focused on performance improvements
+32,OS X Yosemite 10.10,OS X version released in 2014 with iOS-inspired flat design
+33,OS X Mavericks 10.9,OS X version released in 2013 introducing Maps and iBooks
+34,OS X Mountain Lion 10.8,OS X version released in 2012 with iCloud integration
+35,Mac OS X Lion 10.7,OS X version released in 2011 introducing Mission Control and Launchpad
+36,Mac OS X Snow Leopard 10.6,OS X version released in 2009 focused on refinement and performance
+37,Mac OS X Leopard 10.5,OS X version released in 2007 with Time Machine backup feature
+38,Ubuntu 24.04 LTS,Ubuntu Long Term Support release from April 2024 with 5-year support
+39,Ubuntu 22.04 LTS,Ubuntu Long Term Support release from April 2022 codenamed Jammy Jellyfish
+40,Ubuntu 20.04 LTS,Ubuntu Long Term Support release from April 2020 codenamed Focal Fossa
+41,Ubuntu 18.04 LTS,Ubuntu Long Term Support release from April 2018 codenamed Bionic Beaver
+42,Ubuntu 16.04 LTS,Ubuntu Long Term Support release from April 2016 codenamed Xenial Xerus
+43,Debian 12,Debian stable release codenamed Bookworm released in 2023
+44,Debian 11,Debian stable release codenamed Bullseye released in 2021
+45,Debian 10,Debian stable release codenamed Buster released in 2019
+46,Debian 9,Debian stable release codenamed Stretch released in 2017
+47,RHEL 9,Red Hat Enterprise Linux 9 released in 2022 with 10-year lifecycle
+48,RHEL 8,Red Hat Enterprise Linux 8 released in 2019 with modular repository support
+49,RHEL 7,Red Hat Enterprise Linux 7 released in 2014 with systemd and Docker support
+50,RHEL 6,Red Hat Enterprise Linux 6 released in 2010 with KVM virtualization
+51,CentOS Stream 9,Rolling preview of next RHEL 9 minor release
+52,CentOS Stream 8,Rolling preview of next RHEL 8 minor release
+53,CentOS 7,Community rebuild of RHEL 7 released in 2014
+54,CentOS 6,Community rebuild of RHEL 6 released in 2010
+55,Rocky Linux 9,Enterprise Linux 9 compatible with RHEL 9
+56,Rocky Linux 8,Enterprise Linux 8 compatible with RHEL 8
+57,AlmaLinux 9,Community-owned enterprise Linux 9 compatible with RHEL 9
+58,AlmaLinux 8,Community-owned enterprise Linux 8 compatible with RHEL 8
+59,Fedora 40,Community Linux distribution released in 2024 with cutting-edge features
+60,Fedora 39,Community Linux distribution released in 2023
+61,SUSE Linux Enterprise 15,Enterprise Linux version 15 with extended lifecycle support
+62,SUSE Linux Enterprise 12,Enterprise Linux version 12 for mission-critical workloads
+63,openSUSE Leap 15,Stable openSUSE version aligned with SUSE Linux Enterprise
+64,openSUSE Tumbleweed,Rolling release openSUSE distribution with latest packages
+65,Oracle Linux 9,Enterprise Linux 9 compatible with RHEL and optimized for Oracle products
+66,Oracle Linux 8,Enterprise Linux 8 with Unbreakable Enterprise Kernel
+67,Arch Linux,Rolling release distribution with latest software versions
+68,Manjaro,User-friendly Arch-based distribution with curated rolling releases
+69,Linux Mint 21,Ubuntu-based distribution with Cinnamon desktop released in 2022
+70,Linux Mint 20,Ubuntu-based distribution released in 2020
+71,Kali Linux 2024,Penetration testing distribution updated in 2024
+72,Kali Linux 2023,Penetration testing distribution updated in 2023
+73,Gentoo,Source-based rolling release distribution
+74,Slackware 15,Stable release of one of oldest Linux distributions
+75,Android 14,Android mobile OS version released in 2023 with privacy enhancements
+76,Android 13,Android mobile OS version released in 2022
+77,Android 12,Android mobile OS version released in 2021 with Material You design
+78,Android 11,Android mobile OS version released in 2020
+79,Android 10,Android mobile OS version released in 2019
+80,iOS 18,Apple mobile OS version released in 2024
+81,iOS 17,Apple mobile OS version released in 2023 with Contact Poster and StandBy
+82,iOS 16,Apple mobile OS version released in 2022 with customizable Lock Screen
+83,iOS 15,Apple mobile OS version released in 2021 with Focus modes
+84,iOS 14,Apple mobile OS version released in 2020 with widgets and App Library
+85,iPadOS 18,iPad-specific OS version released in 2024
+86,iPadOS 17,iPad-specific OS version released in 2023
+87,FreeBSD 14,FreeBSD version 14 released in 2023 with performance improvements
+88,FreeBSD 13,FreeBSD version 13 released in 2021 with ZFS enhancements
+89,FreeBSD 12,FreeBSD version 12 released in 2018
+90,OpenBSD 7.4,OpenBSD version 7.4 released in 2023 with security enhancements
+91,OpenBSD 7.3,OpenBSD version 7.3 released in 2023
+92,NetBSD 10,NetBSD version 10 with improved hardware support
+93,NetBSD 9,NetBSD version 9 released in 2020
+94,Solaris 11,Oracle Solaris 11 with ZFS and DTrace integration
+95,Solaris 10,Oracle Solaris 10 with Zones virtualization
+96,AIX 7.3,IBM AIX version 7.3 for Power Systems
+97,AIX 7.2,IBM AIX version 7.2 released in 2015
+98,HP-UX 11i v3,HP-UX version 11i v3 for Integrity servers
+99,Chrome OS 120,Chrome OS version 120 released in 2024
+100,Chrome OS 119,Chrome OS version 119 released in 2023

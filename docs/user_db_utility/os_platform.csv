@@ -1,0 +1,51 @@
+os_platform_id,os_platform_name,os_platform_description
+1,Windows,Microsoft's desktop and server operating system platform for personal computers and enterprise environments
+2,macOS,Apple's Unix-based operating system platform for Macintosh desktop and laptop computers
+3,Linux,Open-source Unix-like operating system kernel with various distributions for servers desktops and embedded systems
+4,Unix,Family of multitasking multiuser operating systems derived from original AT&T Unix
+5,Android,Google's Linux-based mobile operating system platform for smartphones tablets and embedded devices
+6,iOS,Apple's mobile operating system platform for iPhone devices
+7,iPadOS,Apple's tablet operating system platform derived from iOS specifically for iPad devices
+8,Chrome OS,Google's Linux-based operating system platform for Chromebook laptops and cloud-centric computing
+9,FreeBSD,Unix-like operating system platform derived from Berkeley Software Distribution focused on performance
+10,OpenBSD,Unix-like operating system platform emphasizing security code correctness and cryptography
+11,NetBSD,Unix-like operating system platform emphasizing portability across diverse hardware architectures
+12,Solaris,Oracle's Unix operating system platform for enterprise servers and workstations
+13,AIX,IBM's Unix operating system platform for Power Systems and enterprise servers
+14,HP-UX,Hewlett Packard Enterprise's Unix operating system platform for Integrity and PA-RISC servers
+15,z/OS,IBM's mainframe operating system platform for System z and zSeries mainframe computers
+16,watchOS,Apple's operating system platform for Apple Watch wearable devices
+17,tvOS,Apple's operating system platform for Apple TV set-top boxes and streaming devices
+18,HarmonyOS,Huawei's distributed operating system platform for mobile devices IoT and smart devices
+19,Tizen,Linux-based operating system platform for smart TVs wearables and IoT devices developed by Samsung and partners
+20,VxWorks,Wind River's real-time operating system platform for embedded systems and mission-critical applications
+21,QNX,BlackBerry's Unix-like real-time operating system platform for automotive and embedded systems
+22,Junos,Juniper Networks' FreeBSD-based operating system platform for networking equipment
+23,IOS,Cisco's internetwork operating system platform for networking routers and switches
+24,ESXi,VMware's bare-metal hypervisor platform for server virtualization and cloud infrastructure
+25,Proxmox VE,Open-source virtualization platform based on Debian Linux for running VMs and containers
+26,XenServer,Citrix's hypervisor platform for server virtualization and cloud computing
+27,RouterOS,MikroTik's operating system platform for routers switches and wireless systems
+28,pfSense,Open-source firewall and router operating system platform based on FreeBSD
+29,OpenWrt,Linux-based operating system platform for embedded devices and consumer routers
+30,TrueNAS,Open-source storage operating system platform based on FreeBSD for network-attached storage
+31,DSM,Synology's DiskStation Manager operating system platform for NAS devices
+32,QTS,QNAP's operating system platform for NAS and storage devices
+33,Windows Server,Microsoft's server operating system platform for enterprise datacenter and cloud environments
+34,Red Hat Enterprise Linux,Enterprise-grade Linux platform for servers cloud and containerized applications
+35,Ubuntu,Debian-based Linux platform for desktops servers and cloud computing
+36,CentOS,Community-driven enterprise Linux platform compatible with Red Hat Enterprise Linux
+37,Debian,Community-maintained Linux platform known for stability and free software principles
+38,Fedora,Community-driven Linux platform featuring cutting-edge open-source technologies
+39,SUSE Linux Enterprise,Enterprise Linux platform for mission-critical workloads and SAP applications
+40,Oracle Linux,Enterprise Linux platform optimized for Oracle software and database systems
+41,Amazon Linux,AWS-optimized Linux platform designed for cloud computing on Amazon infrastructure
+42,Rocky Linux,Community enterprise Linux platform providing downstream RHEL compatibility
+43,AlmaLinux,Community-owned enterprise Linux platform offering RHEL binary compatibility
+44,Arch Linux,Rolling-release Linux platform emphasizing simplicity and user control
+45,Kali Linux,Debian-based Linux platform specialized for penetration testing and security auditing
+46,Gentoo,Source-based Linux platform offering extreme customization and optimization
+47,Slackware,One of oldest Linux platforms emphasizing simplicity and stability
+48,MS-DOS,Microsoft's discontinued disk operating system platform for early personal computers
+49,OS/2,IBM's discontinued operating system platform originally developed with Microsoft
+50,BeOS,Discontinued multimedia operating system platform known for performance; spiritual successor is Haiku

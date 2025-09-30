@@ -1,0 +1,101 @@
+driver_category_id,driver_category,driver_category_description
+1,Display Adapters,Graphics and video card drivers for rendering visual output on monitors and displays
+2,Audio Devices,Sound card and audio interface drivers for playback recording and audio processing
+3,Network Adapters,Ethernet WiFi and other network interface card drivers for wired and wireless connectivity
+4,Storage Controllers,Hard drive SSD and storage controller drivers including SATA NVMe and RAID controllers
+5,Chipset,Motherboard chipset drivers providing core system functionality and component communication
+6,USB Controllers,Universal Serial Bus host controller and root hub drivers managing USB device connectivity
+7,Bluetooth,Bluetooth adapter drivers enabling wireless communication with Bluetooth devices
+8,Keyboards,Keyboard device drivers for standard PS/2 USB and wireless keyboard input
+9,Mice and Pointing Devices,Mouse touchpad trackball and other pointing device drivers for cursor control
+10,Printers,Printer device drivers for document output to local and network printers
+11,Scanners,Scanner device drivers for image and document digitization and capture
+12,Imaging Devices,Camera webcam and video capture device drivers for still and motion image capture
+13,Monitors,Display monitor drivers defining supported resolutions refresh rates and color profiles
+14,Biometric Devices,Fingerprint reader facial recognition and other biometric authentication device drivers
+15,Smart Card Readers,Smart card and chip card reader drivers for authentication and secure access
+16,DVD/CD-ROM Drives,Optical disc drive drivers for CD DVD and Blu-ray reading and writing
+17,Human Interface Devices,HID-compliant device drivers for game controllers sensors and specialty input devices
+18,Processors,CPU and processor drivers for power management performance states and thermal control
+19,System Devices,Core system component drivers including PCI bridges memory controllers and ACPI devices
+20,Ports (COM & LPT),Serial port COM and parallel port LPT drivers for legacy device communication
+21,Battery,Battery and power management drivers for laptops tablets and portable devices
+22,Firmware,BIOS UEFI and firmware drivers for system initialization and hardware configuration
+23,Security Devices,Trusted Platform Module TPM and hardware security device drivers for encryption and authentication
+24,Modems,Dial-up DSL and cable modem drivers for internet connectivity over telephone and cable lines
+25,Mobile Devices,Smartphone and tablet drivers for USB tethering file transfer and device synchronization
+26,Card Readers,Memory card reader drivers for SD microSD CF and other removable flash media
+27,TV Tuners,Television tuner card drivers for capturing and recording broadcast television signals
+28,RAID Controllers,Hardware RAID controller drivers for disk array management and redundant storage
+29,SCSI and SAS Adapters,Small Computer System Interface and Serial Attached SCSI adapter drivers for enterprise storage
+30,NVMe Controllers,Non-Volatile Memory Express controller drivers for high-performance SSD storage
+31,Thunderbolt,Thunderbolt interface drivers for high-speed peripheral and display connectivity
+32,IEEE 1394 (FireWire),FireWire and i.LINK interface drivers for high-speed device connectivity and audio/video transfer
+33,Sensor Devices,Accelerometer gyroscope ambient light and other sensor drivers for environmental and motion detection
+34,Location Sensors,GPS GLONASS and positioning sensor drivers for geographic location services
+35,Wireless WAN,Cellular modem and mobile broadband drivers for 3G 4G LTE and 5G connectivity
+36,Infrared Devices,IrDA and infrared communication device drivers for wireless data transfer
+37,Media Players,Portable media player and MP3 player drivers for music and video device synchronization
+38,Video Capture Devices,Video capture card and frame grabber drivers for analog and digital video input
+39,Game Controllers,Gamepad joystick steering wheel and other gaming peripheral drivers
+40,Touch Screen,Touch screen digitizer drivers for single-touch and multi-touch display input
+41,Virtualization,Virtual machine hypervisor and virtualization platform drivers for guest operating systems
+42,Virtual Network Adapters,Software-based network adapter drivers for VPN virtual switches and network emulation
+43,Virtual Disk Drives,Virtual hard disk and ISO mounting drivers for software-based storage devices
+44,Docking Stations,Laptop docking station drivers for port replication and peripheral expansion
+45,Multifunction Adapters,Combination device drivers supporting multiple functions in single hardware unit
+46,PCMCIA Adapters,PC Card and CardBus adapter drivers for legacy laptop expansion cards
+47,Video Streaming Devices,Video streaming and capture device drivers for broadcast and recording equipment
+48,3D Motion Controllers,Virtual reality and 3D motion tracking device drivers for immersive interfaces
+49,Proximity Sensors,Near-field communication NFC and proximity detection device drivers
+50,Barcode Scanners,Barcode and QR code scanner drivers for inventory and point-of-sale systems
+51,MIDI Devices,Musical Instrument Digital Interface drivers for electronic music equipment and controllers
+52,POS Devices,Point-of-sale terminal receipt printer and cash drawer drivers for retail systems
+53,Uninterruptible Power Supply,UPS drivers for battery backup monitoring power management and safe shutdown
+54,Thermal Sensors,Temperature monitoring and thermal management device drivers for system cooling
+55,Fan Controllers,System fan speed control and monitoring drivers for cooling management
+56,RGB Lighting,Programmable RGB LED and lighting effect drivers for case and peripheral illumination
+57,KVM Switches,Keyboard video mouse switch drivers for multi-computer control systems
+58,Presentation Devices,Projector and presentation display drivers for business and education environments
+59,Serial ATA Controllers,SATA host controller drivers for hard drive and SSD connectivity
+60,eSATA Controllers,External SATA controller drivers for hot-swappable external drive connectivity
+61,Memory Card Controllers,SD MMC and flash memory card controller drivers for embedded storage
+62,Sound Cards,Dedicated sound card and audio interface drivers for professional and gaming audio
+63,Graphics Tablets,Pen tablet and digitizer drivers for digital art and design input devices
+64,Industrial Controllers,PLC SCADA and industrial automation device drivers for manufacturing systems
+65,CAN Bus Controllers,Controller Area Network drivers for automotive and industrial communication
+66,RS-232 Adapters,Serial communication adapter drivers for industrial and scientific equipment
+67,GPS Receivers,Standalone GPS receiver drivers for navigation and positioning applications
+68,Ethernet Controllers,Dedicated Ethernet NIC drivers for wired network connectivity
+69,Wireless LAN Adapters,WiFi adapter drivers for 802.11 a/b/g/n/ac/ax wireless networking
+70,Modem Adapters,Internal and external modem adapter drivers for dial-up connectivity
+71,WiMAX Adapters,Worldwide Interoperability for Microwave Access drivers for wireless broadband
+72,Broadband Adapters,Cable and DSL modem drivers for high-speed internet connectivity
+73,Virtual COM Ports,Software COM port drivers for USB-to-serial and virtual serial communication
+74,Tape Drives,Magnetic tape backup drive drivers for long-term data archival
+75,Floppy Disk Drives,Legacy floppy disk drive drivers for 3.5 inch and 5.25 inch diskettes
+76,Zip Drives,Iomega Zip drive drivers for legacy removable disk storage
+77,M.2 Controllers,M.2 interface controller drivers for compact SSD and wireless module connectivity
+78,USB-C Controllers,USB Type-C and USB Power Delivery controller drivers for modern connectivity
+79,DisplayPort Controllers,DisplayPort interface drivers for high-resolution display connectivity
+80,HDMI Controllers,High-Definition Multimedia Interface drivers for audio/video output
+81,Audio DSP,Digital Signal Processor drivers for advanced audio processing and effects
+82,Webcams,Integrated and external webcam drivers for video conferencing and streaming
+83,Microphone Arrays,Multi-microphone array drivers for voice capture noise cancellation and beamforming
+84,LED Controllers,System LED and indicator light drivers for status display and notifications
+85,Power Buttons,Power button and system control drivers for sleep wake and shutdown functions
+86,Volume Controls,Hardware volume control and multimedia button drivers for audio adjustment
+87,Express Card,ExpressCard adapter drivers for laptop expansion slot connectivity
+88,mSATA Controllers,Mini-SATA controller drivers for compact SSD connectivity in laptops
+89,PCI Express Root Complex,PCIe root complex and bridge drivers for expansion card communication
+90,Serial Peripheral Interface,SPI controller drivers for embedded system communication
+91,I2C Controllers,Inter-Integrated Circuit bus drivers for low-speed peripheral communication
+92,GPIO Controllers,General Purpose Input/Output drivers for embedded system control
+93,Watchdog Timers,Hardware watchdog timer drivers for system reliability and automatic recovery
+94,Real-Time Clocks,RTC drivers for maintaining system time during power-off states
+95,Embedded Controllers,Laptop and system embedded controller drivers for power and thermal management
+96,AC Adapters,Power adapter and charging circuit drivers for battery charging and power delivery
+97,Windows Hello,Windows Hello biometric authentication device drivers for facial and fingerprint recognition
+98,Precision Touchpad,Precision touchpad drivers with gesture support and palm rejection
+99,TPM 2.0,Trusted Platform Module 2.0 drivers for hardware-based security and encryption
+100,Intel Management Engine,Intel ME firmware interface drivers for remote management and security features'

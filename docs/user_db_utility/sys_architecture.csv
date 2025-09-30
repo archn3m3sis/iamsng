@@ -1,0 +1,29 @@
+sys_architecture_id,system_architecture,sys_architecture_description
+1,x86,32-bit Intel architecture based on 8086 processor family; also known as i386 or IA-32
+2,x86_64,64-bit extension of x86 architecture; also known as x64 AMD64 or Intel 64
+3,ARM,32-bit RISC architecture widely used in mobile devices and embedded systems
+4,ARM64,64-bit ARM architecture; also known as AArch64 or ARMv8
+5,IA-64,Intel Itanium 64-bit architecture designed for enterprise servers; now largely discontinued
+6,PowerPC,RISC architecture developed by Apple IBM and Motorola; used in older Macs and gaming consoles
+7,SPARC,Scalable Processor Architecture; RISC architecture used primarily in Oracle/Sun enterprise systems
+8,MIPS,Microprocessor without Interlocked Pipeline Stages; RISC architecture used in embedded systems and routers
+9,RISC-V,Open-source RISC instruction set architecture gaining adoption in various applications
+10,Alpha,64-bit RISC architecture developed by DEC; discontinued but historically significant
+11,PA-RISC,Precision Architecture RISC developed by HP for Unix workstations and servers
+12,s390x,64-bit IBM System/390 mainframe architecture; also known as z/Architecture
+13,m68k,Motorola 68000 series architecture; used in early Apple Macintosh and Amiga computers
+14,MIPS64,64-bit version of MIPS architecture used in high-performance embedded systems
+15,PowerPC64,64-bit version of PowerPC architecture; used in IBM Power Systems
+16,ARMv7,32-bit ARM architecture version 7; common in smartphones and tablets from 2010s
+17,ARMv8,ARM architecture version 8; introduced 64-bit support and used in modern mobile devices
+18,i386,Intel 80386 32-bit architecture; synonym for x86
+19,i686,Intel Pentium Pro and later 32-bit x86 processors with enhanced instruction sets
+20,amd64,AMD's implementation of 64-bit x86 architecture; synonym for x86_64
+21,RISC-V 32,32-bit version of open-source RISC-V architecture
+22,RISC-V 64,64-bit version of open-source RISC-V architecture
+23,ARMv6,ARM architecture version 6; used in devices like Raspberry Pi 1 and earlier smartphones
+24,ARMv5,ARM architecture version 5; used in older embedded systems and early smartphones
+25,SuperH,RISC architecture developed by Hitachi; used in embedded systems and Sega gaming consoles
+26,Xtensa,Configurable processor architecture by Tensilica; used in IoT and embedded devices
+27,OpenRISC,Open-source RISC architecture for embedded systems
+28,ARC,Argonaut RISC Core; synthesizable processor architecture for embedded applications

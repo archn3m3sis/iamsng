@@ -1,0 +1,529 @@
+os_build_id,os_build_name,os_build_description
+1,26100.2605,Windows 11 24H2 build from December 2024 with latest security and feature updates
+2,26100.2454,Windows 11 24H2 build from November 2024 update
+3,26100.2314,Windows 11 24H2 build from October 2024 update
+4,26100.2161,Windows 11 24H2 build from September 2024 update
+5,26100.1742,Windows 11 24H2 build from August 2024 update
+6,26100.1591,Windows 11 24H2 build from July 2024 update
+7,26100.1510,Windows 11 24H2 build from June 2024 update
+8,26100.1150,Windows 11 24H2 build from May 2024 Insider Preview
+9,26100.994,Windows 11 24H2 build from April 2024 Insider Preview
+10,26100.712,Windows 11 24H2 build from March 2024 Insider Preview
+11,22631.4602,Windows 11 23H2 build from December 2024 with latest cumulative updates
+12,22631.4460,Windows 11 23H2 build from November 2024 update
+13,22631.4317,Windows 11 23H2 build from October 2024 update
+14,22631.4169,Windows 11 23H2 build from September 2024 update
+15,22631.4037,Windows 11 23H2 build from August 2024 update
+16,22631.3880,Windows 11 23H2 build from July 2024 update
+17,22631.3737,Windows 11 23H2 build from June 2024 update
+18,22631.3593,Windows 11 23H2 build from May 2024 update
+19,22631.3527,Windows 11 23H2 build from April 2024 update
+20,22631.3374,Windows 11 23H2 build from March 2024 update
+21,22631.3235,Windows 11 23H2 build from February 2024 update
+22,22631.3085,Windows 11 23H2 build from January 2024 update
+23,22631.2861,Windows 11 23H2 build from December 2023 update
+24,22631.2715,Windows 11 23H2 build from November 2023 update
+25,22631.2506,Windows 11 23H2 build from October 2023 update
+26,22631.2428,Windows 11 23H2 initial release build from September 2023
+27,22621.3880,Windows 11 22H2 build from July 2024 update
+28,22621.3737,Windows 11 22H2 build from June 2024 update
+29,22621.3593,Windows 11 22H2 build from May 2024 update
+30,22621.3527,Windows 11 22H2 build from April 2024 update
+31,22621.3374,Windows 11 22H2 build from March 2024 update
+32,22621.3235,Windows 11 22H2 build from February 2024 update
+33,22621.3085,Windows 11 22H2 build from January 2024 update
+34,22621.2861,Windows 11 22H2 build from December 2023 update
+35,22621.2715,Windows 11 22H2 build from November 2023 update
+36,22621.2506,Windows 11 22H2 build from October 2023 update
+37,22621.2428,Windows 11 22H2 build from September 2023 update
+38,22621.2283,Windows 11 22H2 build from August 2023 update
+39,22621.2134,Windows 11 22H2 build from July 2023 update
+40,22621.1992,Windows 11 22H2 build from June 2023 update
+41,22621.1848,Windows 11 22H2 build from May 2023 update
+42,22621.1778,Windows 11 22H2 build from April 2023 update
+43,22621.1635,Windows 11 22H2 build from March 2023 update
+44,22621.1555,Windows 11 22H2 build from February 2023 update
+45,22621.1413,Windows 11 22H2 build from January 2023 update
+46,22621.1265,Windows 11 22H2 build from December 2022 update
+47,22621.963,Windows 11 22H2 build from November 2022 update
+48,22621.819,Windows 11 22H2 build from October 2022 update
+49,22621.674,Windows 11 22H2 build from September 2022 update
+50,22621.608,Windows 11 22H2 initial release build from September 2022
+51,22000.2960,Windows 11 21H2 build from December 2023 final update
+52,22000.2836,Windows 11 21H2 build from November 2023 update
+53,22000.2652,Windows 11 21H2 build from October 2023 update
+54,22000.2538,Windows 11 21H2 build from September 2023 update
+55,22000.2416,Windows 11 21H2 build from August 2023 update
+56,22000.2295,Windows 11 21H2 build from July 2023 update
+57,22000.2176,Windows 11 21H2 build from June 2023 update
+58,22000.2057,Windows 11 21H2 build from May 2023 update
+59,22000.1936,Windows 11 21H2 build from April 2023 update
+60,22000.1817,Windows 11 21H2 build from March 2023 update
+61,22000.1696,Windows 11 21H2 build from February 2023 update
+62,22000.1574,Windows 11 21H2 build from January 2023 update
+63,22000.1455,Windows 11 21H2 build from December 2022 update
+64,22000.1335,Windows 11 21H2 build from November 2022 update
+65,22000.1219,Windows 11 21H2 build from October 2022 update
+66,22000.1098,Windows 11 21H2 build from September 2022 update
+67,22000.978,Windows 11 21H2 build from August 2022 update
+68,22000.856,Windows 11 21H2 build from July 2022 update
+69,22000.795,Windows 11 21H2 build from June 2022 update
+70,22000.739,Windows 11 21H2 build from May 2022 update
+71,22000.675,Windows 11 21H2 build from April 2022 update
+72,22000.613,Windows 11 21H2 build from March 2022 update
+73,22000.556,Windows 11 21H2 build from February 2022 update
+74,22000.493,Windows 11 21H2 build from January 2022 update
+75,22000.434,Windows 11 21H2 build from December 2021 update
+76,22000.348,Windows 11 21H2 build from November 2021 update
+77,22000.282,Windows 11 21H2 build from October 2021 update
+78,22000.194,Windows 11 21H2 initial release build from October 2021
+79,19045.5247,Windows 10 22H2 build from December 2024 with latest security updates
+80,19045.5131,Windows 10 22H2 build from November 2024 update
+81,19045.5011,Windows 10 22H2 build from October 2024 update
+82,19045.4894,Windows 10 22H2 build from September 2024 update
+83,19045.4780,Windows 10 22H2 build from August 2024 update
+84,19045.4651,Windows 10 22H2 build from July 2024 update
+85,19045.4529,Windows 10 22H2 build from June 2024 update
+86,19045.4412,Windows 10 22H2 build from May 2024 update
+87,19045.4291,Windows 10 22H2 build from April 2024 update
+88,19045.4170,Windows 10 22H2 build from March 2024 update
+89,19045.4046,Windows 10 22H2 build from February 2024 update
+90,19045.3930,Windows 10 22H2 build from January 2024 update
+91,19045.3803,Windows 10 22H2 build from December 2023 update
+92,19045.3693,Windows 10 22H2 build from November 2023 update
+93,19045.3570,Windows 10 22H2 build from October 2023 update
+94,19045.3448,Windows 10 22H2 build from September 2023 update
+95,19045.3324,Windows 10 22H2 build from August 2023 update
+96,19045.3208,Windows 10 22H2 build from July 2023 update
+97,19045.3086,Windows 10 22H2 build from June 2023 update
+98,19045.2965,Windows 10 22H2 build from May 2023 update
+99,19045.2846,Windows 10 22H2 build from April 2023 update
+100,19045.2728,Windows 10 22H2 build from March 2023 update
+101,19045.2604,Windows 10 22H2 build from February 2023 update
+102,19045.2486,Windows 10 22H2 build from January 2023 update
+103,19045.2364,Windows 10 22H2 build from December 2022 update
+104,19045.2251,Windows 10 22H2 build from November 2022 update
+105,19045.2130,Windows 10 22H2 build from October 2022 update
+106,19045.2006,Windows 10 22H2 initial release build from October 2022
+107,19044.1889,Windows 10 21H2 build from August 2022 update
+108,19044.1806,Windows 10 21H2 build from July 2022 update
+109,19044.1741,Windows 10 21H2 build from June 2022 update
+110,19044.1706,Windows 10 21H2 build from May 2022 update
+111,19044.1645,Windows 10 21H2 build from April 2022 update
+112,19044.1620,Windows 10 21H2 build from March 2022 update
+113,19044.1566,Windows 10 21H2 build from February 2022 update
+114,19044.1503,Windows 10 21H2 build from January 2022 update
+115,19044.1415,Windows 10 21H2 build from December 2021 update
+116,19044.1387,Windows 10 21H2 build from November 2021 update
+117,19044.1288,Windows 10 21H2 initial release build from November 2021
+118,19043.1288,Windows 10 21H1 build from September 2021 update
+119,19043.1237,Windows 10 21H1 build from August 2021 update
+120,19043.1165,Windows 10 21H1 build from July 2021 update
+121,19043.1110,Windows 10 21H1 build from June 2021 update
+122,19043.1083,Windows 10 21H1 build from May 2021 update
+123,19043.985,Windows 10 21H1 initial release build from May 2021
+124,19042.985,Windows 10 20H2 build from April 2021 update
+125,19042.928,Windows 10 20H2 build from March 2021 update
+126,19042.867,Windows 10 20H2 build from February 2021 update
+127,19042.804,Windows 10 20H2 build from January 2021 update
+128,19042.746,Windows 10 20H2 build from December 2020 update
+129,19042.685,Windows 10 20H2 build from November 2020 update
+130,19042.630,Windows 10 20H2 build from October 2020 update
+131,19042.608,Windows 10 20H2 initial release build from October 2020
+132,19041.985,Windows 10 2004 build from April 2021 update
+133,19041.928,Windows 10 2004 build from March 2021 update
+134,19041.867,Windows 10 2004 build from February 2021 update
+135,19041.804,Windows 10 2004 build from January 2021 update
+136,19041.746,Windows 10 2004 build from December 2020 update
+137,19041.685,Windows 10 2004 build from November 2020 update
+138,19041.630,Windows 10 2004 build from October 2020 update
+139,19041.572,Windows 10 2004 build from September 2020 update
+140,19041.508,Windows 10 2004 build from August 2020 update
+141,19041.450,Windows 10 2004 build from July 2020 update
+142,19041.388,Windows 10 2004 build from June 2020 update
+143,19041.329,Windows 10 2004 build from May 2020 update
+144,19041.264,Windows 10 2004 initial release build from May 2020
+145,18363.1556,Windows 10 1909 build from December 2020 update
+146,18363.1500,Windows 10 1909 build from November 2020 update
+147,18363.1440,Windows 10 1909 build from October 2020 update
+148,18363.1379,Windows 10 1909 build from September 2020 update
+149,18363.1350,Windows 10 1909 build from August 2020 update
+150,18363.1316,Windows 10 1909 build from July 2020 update
+151,18363.1256,Windows 10 1909 build from June 2020 update
+152,18363.1198,Windows 10 1909 build from May 2020 update
+153,18363.1139,Windows 10 1909 build from April 2020 update
+154,18363.1082,Windows 10 1909 build from March 2020 update
+155,18363.1049,Windows 10 1909 build from February 2020 update
+156,18363.959,Windows 10 1909 build from January 2020 update
+157,18363.900,Windows 10 1909 build from December 2019 update
+158,18363.836,Windows 10 1909 build from November 2019 update
+159,18363.476,Windows 10 1909 initial release build from November 2019
+160,18362.1556,Windows 10 1903 build from December 2020 update
+161,18362.1500,Windows 10 1903 build from November 2020 update
+162,18362.1440,Windows 10 1903 build from October 2020 update
+163,18362.1379,Windows 10 1903 build from September 2020 update
+164,18362.1350,Windows 10 1903 build from August 2020 update
+165,18362.1316,Windows 10 1903 build from July 2020 update
+166,18362.1256,Windows 10 1903 build from June 2020 update
+167,18362.1198,Windows 10 1903 build from May 2020 update
+168,18362.1139,Windows 10 1903 build from April 2020 update
+169,18362.1082,Windows 10 1903 build from March 2020 update
+170,18362.1049,Windows 10 1903 build from February 2020 update
+171,18362.959,Windows 10 1903 build from January 2020 update
+172,18362.900,Windows 10 1903 build from December 2019 update
+173,18362.836,Windows 10 1903 build from November 2019 update
+174,18362.778,Windows 10 1903 build from October 2019 update
+175,18362.720,Windows 10 1903 build from September 2019 update
+176,18362.657,Windows 10 1903 build from August 2019 update
+177,18362.592,Windows 10 1903 build from July 2019 update
+178,18362.535,Windows 10 1903 build from June 2019 update
+179,18362.418,Windows 10 1903 build from May 2019 update
+180,18362.356,Windows 10 1903 initial release build from May 2019
+181,17763.5696,Windows 10 1809 build from May 2024 final update
+182,17763.5576,Windows 10 1809 build from April 2024 update
+183,17763.5458,Windows 10 1809 build from March 2024 update
+184,17763.5329,Windows 10 1809 build from February 2024 update
+185,17763.5206,Windows 10 1809 build from January 2024 update
+186,17763.5122,Windows 10 1809 build from December 2023 update
+187,17763.5011,Windows 10 1809 build from November 2023 update
+188,17763.4974,Windows 10 1809 build from October 2023 update
+189,17763.4851,Windows 10 1809 build from September 2023 update
+190,17763.4737,Windows 10 1809 build from August 2023 update
+191,17763.4645,Windows 10 1809 build from July 2023 update
+192,17763.4547,Windows 10 1809 build from June 2023 update
+193,17763.4499,Windows 10 1809 build from May 2023 update
+194,17763.4377,Windows 10 1809 build from April 2023 update
+195,17763.4252,Windows 10 1809 build from March 2023 update
+196,17763.1039,Windows 10 1809 build from March 2020 update
+197,17763.914,Windows 10 1809 build from December 2019 update
+198,17763.864,Windows 10 1809 build from November 2019 update
+199,17763.805,Windows 10 1809 build from October 2019 update
+200,17763.737,Windows 10 1809 build from September 2019 update
+201,17763.678,Windows 10 1809 build from August 2019 update
+202,17763.615,Windows 10 1809 build from July 2019 update
+203,17763.557,Windows 10 1809 build from June 2019 update
+204,17763.529,Windows 10 1809 build from May 2019 update
+205,17763.475,Windows 10 1809 build from April 2019 update
+206,17763.437,Windows 10 1809 build from March 2019 update
+207,17763.379,Windows 10 1809 build from February 2019 update
+208,17763.316,Windows 10 1809 build from January 2019 update
+209,17763.253,Windows 10 1809 build from December 2018 update
+210,17763.168,Windows 10 1809 build from November 2018 update
+211,17763.107,Windows 10 1809 initial release build from November 2018
+212,17134.1907,Windows 10 1803 build from January 2021 final update
+213,17134.1845,Windows 10 1803 build from December 2020 update
+214,17134.1784,Windows 10 1803 build from November 2020 update
+215,17134.1726,Windows 10 1803 build from October 2020 update
+216,17134.1667,Windows 10 1803 build from September 2020 update
+217,17134.1605,Windows 10 1803 build from August 2020 update
+218,17134.1550,Windows 10 1803 build from July 2020 update
+219,17134.1490,Windows 10 1803 build from June 2020 update
+220,17134.1425,Windows 10 1803 build from May 2020 update
+221,17134.1365,Windows 10 1803 build from April 2020 update
+222,17134.1304,Windows 10 1803 build from March 2020 update
+223,17134.1246,Windows 10 1803 build from February 2020 update
+224,17134.1184,Windows 10 1803 build from January 2020 update
+225,17134.1130,Windows 10 1803 build from December 2019 update
+226,17134.1069,Windows 10 1803 build from November 2019 update
+227,17134.1006,Windows 10 1803 build from October 2019 update
+228,17134.950,Windows 10 1803 build from September 2019 update
+229,17134.915,Windows 10 1803 build from August 2019 update
+230,17134.885,Windows 10 1803 build from July 2019 update
+231,17134.858,Windows 10 1803 build from June 2019 update
+232,17134.829,Windows 10 1803 build from May 2019 update
+233,17134.799,Windows 10 1803 build from April 2019 update
+234,17134.765,Windows 10 1803 build from March 2019 update
+235,17134.228,Windows 10 1803 build from August 2018 update
+236,17134.191,Windows 10 1803 build from July 2018 update
+237,17134.165,Windows 10 1803 build from June 2018 update
+238,17134.137,Windows 10 1803 build from May 2018 update
+239,17134.112,Windows 10 1803 build from April 2018 update
+240,17134.48,Windows 10 1803 build from April 2018 update
+241,17134.1,Windows 10 1803 initial release build from April 2018
+242,16299.2166,Windows 10 1709 build from October 2020 final update
+243,16299.2107,Windows 10 1709 build from September 2020 update
+244,16299.2045,Windows 10 1709 build from August 2020 update
+245,16299.1985,Windows 10 1709 build from July 2020 update
+246,16299.1928,Windows 10 1709 build from June 2020 update
+247,16299.1868,Windows 10 1709 build from May 2020 update
+248,16299.1806,Windows 10 1709 build from April 2020 update
+249,16299.1747,Windows 10 1709 build from March 2020 update
+250,16299.1686,Windows 10 1709 build from February 2020 update
+251,16299.1625,Windows 10 1709 build from January 2020 update
+252,16299.1563,Windows 10 1709 build from December 2019 update
+253,16299.1508,Windows 10 1709 build from November 2019 update
+254,16299.1451,Windows 10 1709 build from October 2019 update
+255,16299.1387,Windows 10 1709 build from September 2019 update
+256,16299.1331,Windows 10 1709 build from August 2019 update
+257,16299.1296,Windows 10 1709 build from July 2019 update
+258,16299.1268,Windows 10 1709 build from June 2019 update
+259,16299.1237,Windows 10 1709 build from May 2019 update
+260,16299.1087,Windows 10 1709 build from January 2019 update
+261,16299.936,Windows 10 1709 build from November 2018 update
+262,16299.904,Windows 10 1709 build from October 2018 update
+263,16299.125,Windows 10 1709 build from November 2017 update
+264,16299.98,Windows 10 1709 build from October 2017 update
+265,16299.64,Windows 10 1709 build from October 2017 update
+266,16299.15,Windows 10 1709 initial release build from October 2017
+267,15063.2108,Windows 10 1703 build from October 2019 final update
+268,15063.2045,Windows 10 1703 build from September 2019 update
+269,15063.1988,Windows 10 1703 build from August 2019 update
+270,15063.1955,Windows 10 1703 build from July 2019 update
+271,15063.1928,Windows 10 1703 build from June 2019 update
+272,15063.1897,Windows 10 1703 build from May 2019 update
+273,15063.1868,Windows 10 1703 build from April 2019 update
+274,15063.1835,Windows 10 1703 build from March 2019 update
+275,15063.1784,Windows 10 1703 build from February 2019 update
+276,15063.1717,Windows 10 1703 build from January 2019 update
+277,15063.1631,Windows 10 1703 build from December 2018 update
+278,15063.1563,Windows 10 1703 build from November 2018 update
+279,15063.1506,Windows 10 1703 build from October 2018 update
+280,15063.1387,Windows 10 1703 build from September 2018 update
+281,15063.1356,Windows 10 1703 build from August 2018 update
+282,15063.1235,Windows 10 1703 build from July 2018 update
+283,15063.1206,Windows 10 1703 build from June 2018 update
+284,15063.1155,Windows 10 1703 build from May 2018 update
+285,15063.1112,Windows 10 1703 build from April 2018 update
+286,15063.296,Windows 10 1703 build from May 2017 update
+287,15063.250,Windows 10 1703 build from April 2017 update
+288,15063.138,Windows 10 1703 build from April 2017 update
+289,15063.0,Windows 10 1703 initial release build from April 2017
+290,14393.7428,Windows 10 1607 build from October 2024 final update
+291,14393.7336,Windows 10 1607 build from September 2024 update
+292,14393.7259,Windows 10 1607 build from August 2024 update
+293,14393.7159,Windows 10 1607 build from July 2024 update
+294,14393.7070,Windows 10 1607 build from June 2024 update
+295,14393.6968,Windows 10 1607 build from May 2024 update
+296,14393.6897,Windows 10 1607 build from April 2024 update
+297,14393.6796,Windows 10 1607 build from March 2024 update
+298,14393.6709,Windows 10 1607 build from February 2024 update
+299,14393.6614,Windows 10 1607 build from January 2024 update
+300,14393.6529,Windows 10 1607 build from December 2023 update
+301,14393.2312,Windows 10 1607 build from July 2018 update
+302,14393.2248,Windows 10 1607 build from June 2018 update
+303,14393.2189,Windows 10 1607 build from May 2018 update
+304,14393.1066,Windows 10 1607 build from February 2017 update
+305,14393.693,Windows 10 1607 build from December 2016 update
+306,14393.576,Windows 10 1607 build from November 2016 update
+307,14393.447,Windows 10 1607 build from October 2016 update
+308,14393.321,Windows 10 1607 build from October 2016 update
+309,14393.222,Windows 10 1607 build from September 2016 update
+310,14393.105,Windows 10 1607 build from August 2016 update
+311,14393.10,Windows 10 1607 initial release build from August 2016
+312,10586.1176,Windows 10 1511 build from October 2017 final update
+313,10586.1106,Windows 10 1511 build from September 2017 update
+314,10586.1045,Windows 10 1511 build from August 2017 update
+315,10586.1007,Windows 10 1511 build from July 2017 update
+316,10586.962,Windows 10 1511 build from June 2017 update
+317,10586.916,Windows 10 1511 build from May 2017 update
+318,10586.839,Windows 10 1511 build from April 2017 update
+319,10586.753,Windows 10 1511 build from March 2017 update
+320,10586.672,Windows 10 1511 build from February 2017 update
+321,10586.589,Windows 10 1511 build from January 2017 update
+322,10586.545,Windows 10 1511 build from December 2016 update
+323,10586.494,Windows 10 1511 build from November 2016 update
+324,10586.456,Windows 10 1511 build from October 2016 update
+325,10586.420,Windows 10 1511 build from September 2016 update
+326,10586.318,Windows 10 1511 build from May 2016 update
+327,10586.218,Windows 10 1511 build from April 2016 update
+328,10586.164,Windows 10 1511 build from March 2016 update
+329,10586.122,Windows 10 1511 build from February 2016 update
+330,10586.104,Windows 10 1511 build from February 2016 update
+331,10586.71,Windows 10 1511 build from January 2016 update
+332,10586.36,Windows 10 1511 build from December 2015 update
+333,10586.14,Windows 10 1511 build from November 2015 update
+334,10586.0,Windows 10 1511 initial release build from November 2015
+335,10240.20349,Windows 10 1507 build from September 2023 final update
+336,10240.20229,Windows 10 1507 build from August 2023 update
+337,10240.20143,Windows 10 1507 build from July 2023 update
+338,10240.20059,Windows 10 1507 build from June 2023 update
+339,10240.19991,Windows 10 1507 build from May 2023 update
+340,10240.19900,Windows 10 1507 build from April 2023 update
+341,10240.1832,Windows 10 1507 build from October 2017 update
+342,10240.1770,Windows 10 1507 build from September 2017 update
+343,10240.1738,Windows 10 1507 build from August 2017 update
+344,10240.1692,Windows 10 1507 build from July 2017 update
+345,10240.1659,Windows 10 1507 build from June 2017 update
+346,10240.1633,Windows 10 1507 build from May 2017 update
+347,10240.1045,Windows 10 1507 build from February 2017 update
+348,10240.16549,Windows 10 1507 build from August 2016 update
+349,10240.16384,Windows 10 1507 initial release build from July 2015
+350,9600.21758,Windows 8.1 Update build from July 2023 final update
+351,9600.21665,Windows 8.1 Update build from June 2023 update
+352,9600.21573,Windows 8.1 Update build from May 2023 update
+353,9600.21492,Windows 8.1 Update build from April 2023 update
+354,9600.21415,Windows 8.1 Update build from March 2023 update
+355,9600.21350,Windows 8.1 Update build from February 2023 update
+356,9600.21283,Windows 8.1 Update build from January 2023 update
+357,9600.20841,Windows 8.1 Update build from January 2021 update
+358,9600.19869,Windows 8.1 Update build from December 2019 update
+359,9600.19815,Windows 8.1 Update build from November 2019 update
+360,9600.19505,Windows 8.1 Update build from October 2018 update
+361,9600.19463,Windows 8.1 Update build from September 2018 update
+362,9600.19431,Windows 8.1 Update build from August 2018 update
+363,9600.19384,Windows 8.1 Update build from July 2018 update
+364,9600.17415,Windows 8.1 Update initial build from April 2014
+365,9200.23594,Windows 8 build from January 2023 final update
+366,9200.23493,Windows 8 build from December 2022 update
+367,9200.23407,Windows 8 build from November 2022 update
+368,9200.23318,Windows 8 build from October 2022 update
+369,9200.23224,Windows 8 build from September 2022 update
+370,9200.23130,Windows 8 build from August 2022 update
+371,9200.23051,Windows 8 build from July 2022 update
+372,9200.22948,Windows 8 build from June 2022 update
+373,9200.22861,Windows 8 build from May 2022 update
+374,9200.22749,Windows 8 build from April 2022 update
+375,9200.22677,Windows 8 build from March 2022 update
+376,9200.22597,Windows 8 build from February 2022 update
+377,9200.22535,Windows 8 build from January 2022 update
+378,9200.22453,Windows 8 build from December 2021 update
+379,9200.16384,Windows 8 initial release build from October 2012
+380,7601.26706,Windows 7 SP1 build from December 2023 final update
+381,7601.26631,Windows 7 SP1 build from November 2023 update
+382,7601.26555,Windows 7 SP1 build from October 2023 update
+383,7601.26477,Windows 7 SP1 build from September 2023 update
+384,7601.26396,Windows 7 SP1 build from August 2023 update
+385,7601.26315,Windows 7 SP1 build from July 2023 update
+386,7601.26237,Windows 7 SP1 build from June 2023 update
+387,7601.26153,Windows 7 SP1 build from May 2023 update
+388,7601.26068,Windows 7 SP1 build from April 2023 update
+389,7601.25994,Windows 7 SP1 build from March 2023 update
+390,7601.25913,Windows 7 SP1 build from February 2023 update
+391,7601.25834,Windows 7 SP1 build from January 2023 update
+392,7601.25762,Windows 7 SP1 build from December 2022 update
+393,7601.25680,Windows 7 SP1 build from November 2022 update
+394,7601.25607,Windows 7 SP1 build from October 2022 update
+395,7601.25535,Windows 7 SP1 build from September 2022 update
+396,7601.25461,Windows 7 SP1 build from August 2022 update
+397,7601.24545,Windows 7 SP1 build from January 2020 final mainstream update
+398,7601.24499,Windows 7 SP1 build from December 2019 update
+399,7601.24441,Windows 7 SP1 build from November 2019 update
+400,7601.24384,Windows 7 SP1 build from October 2019 update
+401,7601.23381,Windows 7 SP1 build from January 2018 update
+402,7601.22843,Windows 7 SP1 build from January 2017 update
+403,7601.17514,Windows 7 SP1 initial release build from February 2011
+404,7600.16385,Windows 7 RTM initial release build from October 2009
+405,6002.19214,Windows Vista SP2 build from July 2017 final update
+406,6002.19149,Windows Vista SP2 build from June 2017 update
+407,6002.19081,Windows Vista SP2 build from May 2017 update
+408,6002.19012,Windows Vista SP2 build from April 2017 update
+409,6002.18005,Windows Vista SP2 initial release build from April 2009
+410,6001.18000,Windows Vista SP1 initial release build from February 2008
+411,6000.16386,Windows Vista RTM initial release build from November 2006
+412,2600.7750,Windows XP SP3 build from April 2019 final update for embedded systems
+413,2600.7205,Windows XP SP3 build from July 2017 update for embedded systems
+414,2600.6421,Windows XP SP3 build from April 2014 final mainstream update
+415,2600.6335,Windows XP SP3 build from January 2014 update
+416,2600.6272,Windows XP SP3 build from December 2013 update
+417,2600.6226,Windows XP SP3 build from November 2013 update
+418,2600.6174,Windows XP SP3 build from October 2013 update
+419,2600.5512,Windows XP SP3 initial release build from April 2008
+420,2600.2180,Windows XP SP2 initial release build from August 2004
+421,2600.1106,Windows XP SP1 initial release build from September 2002
+422,2600,Windows XP RTM initial release build from August 2001
+423,20348.2762,Windows Server 2022 build from December 2024 with latest updates
+424,20348.2655,Windows Server 2022 build from November 2024 update
+425,20348.2582,Windows Server 2022 build from October 2024 update
+426,20348.2461,Windows Server 2022 build from September 2024 update
+427,20348.2340,Windows Server 2022 build from August 2024 update
+428,20348.2227,Windows Server 2022 build from July 2024 update
+429,20348.2113,Windows Server 2022 build from June 2024 update
+430,20348.2031,Windows Server 2022 build from May 2024 update
+431,20348.1850,Windows Server 2022 build from March 2024 update
+432,20348.587,Windows Server 2022 build from November 2021 update
+433,20348.169,Windows Server 2022 initial release build from August 2021
+434,17763.6532,Windows Server 2019 build from November 2024 update
+435,17763.6414,Windows Server 2019 build from October 2024 update
+436,17763.6293,Windows Server 2019 build from September 2024 update
+437,17763.6189,Windows Server 2019 build from August 2024 update
+438,17763.6054,Windows Server 2019 build from July 2024 update
+439,17763.5936,Windows Server 2019 build from June 2024 update
+440,17763.5820,Windows Server 2019 build from May 2024 update
+441,17763.5696,Windows Server 2019 build from April 2024 update
+442,17763.5329,Windows Server 2019 build from January 2024 update
+443,17763.107,Windows Server 2019 initial release build from October 2018
+444,14393.7428,Windows Server 2016 build from October 2024 update
+445,14393.7336,Windows Server 2016 build from September 2024 update
+446,14393.7259,Windows Server 2016 build from August 2024 update
+447,14393.7159,Windows Server 2016 build from July 2024 update
+448,14393.0,Windows Server 2016 initial release build from October 2016
+449,9600.21758,Windows Server 2012 R2 build from July 2023 final update
+450,9600.17415,Windows Server 2012 R2 initial release build from October 2013
+451,9200.23594,Windows Server 2012 build from January 2023 final update
+452,9200.16384,Windows Server 2012 initial release build from September 2012
+453,7601.26706,Windows Server 2008 R2 SP1 build from December 2023 final update
+454,7601.17514,Windows Server 2008 R2 SP1 initial release build from February 2011
+455,6002.19214,Windows Server 2008 SP2 build from July 2017 final update
+456,6001.18000,Windows Server 2008 SP1 initial release build from February 2008
+457,6000.16386,Windows Server 2008 RTM initial release build from February 2008
+458,3790.5969,Windows Server 2003 R2 SP2 build from July 2015 final update
+459,3790.1830,Windows Server 2003 R2 initial release build from December 2005
+460,3790.0,Windows Server 2003 RTM initial release build from April 2003
+461,24B83,macOS Sequoia 15.1 build from October 2024
+462,24A348,macOS Sequoia 15.0.1 build from September 2024
+463,24A335,macOS Sequoia 15.0 initial release build from September 2024
+464,23G93,macOS Sonoma 14.6.1 build from August 2024
+465,23G80,macOS Sonoma 14.6 build from July 2024
+466,23F79,macOS Sonoma 14.5 build from May 2024
+467,23E224,macOS Sonoma 14.4 build from March 2024
+468,23C71,macOS Sonoma 14.2 build from December 2023
+469,23B2091,macOS Sonoma 14.1.1 build from November 2023
+470,23A344,macOS Sonoma 14.0 initial release build from September 2023
+471,23G93,macOS Ventura 13.6.9 build from September 2024
+472,22G91,macOS Ventura 13.6 build from September 2023
+473,22F82,macOS Ventura 13.5 build from July 2023
+474,22E261,macOS Ventura 13.3 build from March 2023
+475,22D68,macOS Ventura 13.2.1 build from February 2023
+476,22A380,macOS Ventura 13.0 initial release build from October 2022
+477,21G816,macOS Monterey 12.7.6 build from July 2024
+478,21G115,macOS Monterey 12.6 build from September 2022
+479,21F79,macOS Monterey 12.5 build from July 2022
+480,21E258,macOS Monterey 12.4 build from May 2022
+481,21D62,macOS Monterey 12.3 build from March 2022
+482,21C52,macOS Monterey 12.2 build from January 2022
+483,21A559,macOS Monterey 12.0.1 initial release build from October 2021
+484,20G918,macOS Big Sur 11.7.10 build from September 2023
+485,20G224,macOS Big Sur 11.6 build from September 2021
+486,20F71,macOS Big Sur 11.5 build from July 2021
+487,20E241,macOS Big Sur 11.4 build from May 2021
+488,20D91,macOS Big Sur 11.2.3 build from March 2021
+489,20C69,macOS Big Sur 11.1 build from December 2020
+490,20A2411,macOS Big Sur 11.0.1 initial release build from November 2020
+491,19H2026,macOS Catalina 10.15.7 build from November 2021
+492,19F96,macOS Catalina 10.15.5 build from May 2020
+493,19D76,macOS Catalina 10.15.3 build from January 2020
+494,19A583,macOS Catalina 10.15 initial release build from October 2019
+495,18G9323,macOS Mojave 10.14.6 build from November 2021
+496,18E226,macOS Mojave 10.14.4 build from March 2019
+497,18A391,macOS Mojave 10.14 initial release build from September 2018
+498,17G14042,macOS High Sierra 10.13.6 build from November 2020
+499,17E202,macOS High Sierra 10.13.4 build from March 2018
+500,17A405,macOS High Sierra 10.13 initial release build from September 2017
+501,6.11.0-1,Debian 12 Bookworm stable kernel build
+502,6.1.0-1,Debian 11 Bullseye stable kernel build
+503,5.10.0-1,Debian 10 Buster stable kernel build
+504,6.8.0-1,Ubuntu 24.04 LTS Noble Numbat kernel build
+505,6.5.0-1,Ubuntu 22.04 LTS Jammy Jellyfish kernel build
+506,5.15.0-1,Ubuntu 20.04 LTS Focal Fossa kernel build
+507,5.4.0-1,Ubuntu 18.04 LTS Bionic Beaver kernel build
+508,5.14.0-1,RHEL 9 initial release kernel build
+509,4.18.0-1,RHEL 8 initial release kernel build
+510,3.10.0-1,RHEL 7 initial release kernel build
+511,6.9.0,Fedora 40 kernel build
+512,6.8.0,Fedora 39 kernel build
+513,14.0-0,FreeBSD 14.0-RELEASE build
+514,13.2-0,FreeBSD 13.2-RELEASE build
+515,7.4-0,OpenBSD 7.4-RELEASE build
+516,7.3-0,OpenBSD 7.3-RELEASE build
+517,10.0-0,NetBSD 10.0-RELEASE build
+518,9.3-0,NetBSD 9.3-RELEASE build
+519,34,Android 14 API Level 34 build
+520,33,Android 13 API Level 33 build
+521,31,Android 12 API Level 31 build
+522,30,Android 11 API Level 30 build
+523,29,Android 10 API Level 29 build
+524,22A3354,iOS 18.0 initial release build
+525,21A331,iOS 17.0 initial release build
+526,20A362,iOS 16.0 initial release build
+527,19A346,iOS 15.0 initial release build
+528,18A373,iOS 14.0 initial release build

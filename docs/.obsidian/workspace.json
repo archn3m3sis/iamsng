@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "b6ddcd487a69aa76",
+    "type": "split",
+    "children": [
+      {
+        "id": "0441edca228ab336",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "626bf3dd4883047d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "user_notation/database_information/aggregated_entity_assignments.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "aggregated_entity_assignments"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8d67f3c2a49a2cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dcd6b481c078221",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e010d79afc74e49c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1ca473dc99d91052",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "789b0ef4d9601db0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2de95fc1199bb51b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c02a64c4059101a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1be5078f99bc2ebb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "user_notation/database_information/table_ui_design_rules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for table_ui_design_rules"
+            }
+          },
+          {
+            "id": "7088a5ce475798ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "user_notation/database_information/table_ui_design_rules.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from table_ui_design_rules"
+            }
+          },
+          {
+            "id": "c4e4b53cae21a072",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f180018bd7d991cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "user_notation/database_information/aggregated_entity_assignments.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of aggregated_entity_assignments"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "626bf3dd4883047d",
+  "lastOpenFiles": [
+    "SEED-DATA-INVENTORY.md",
+    "user_db_utility/~$table_data_seeds.xlsx",
+    "user_db_utility/7FD58000",
+    "user_db_utility/3ED58000",
+    "user_db_utility/table_data_seeds.xlsx",
+    "user_db_utility/5CA28000",
+    "user_db_utility",
+    "New folder",
+    "ENTITY-RELATIONSHIPS.md",
+    "DATABASE-SCHEMA.md",
+    "MASTER-PROJECT-TIMELINE.md.tmp.37692.1759152761612",
+    "user_notation/database_information/table_entity_deliberations.md",
+    "user_notation/database_information/aggregated_entity_assignments.md",
+    "user_notation/database_information/table_ui_design_rules.md",
+    "Pasted image 20250928205512.png",
+    "Pasted image 20250928205447.png",
+    "user_notation/ui_conceptialization/example_images/ui_concept_image_001.jpg",
+    "user_notation/ui_conceptialization/example_images/ui_concept_image_002.jpg",
+    "user_notation/ui_conceptialization/example_iomages/ui_component_concept_dashboard.jpg",
+    "user_notation/ui_conceptialization/example_images",
+    "user_notation/ui_conceptialization/New folder",
+    "Pasted image 20250928204312.png",
+    "Pasted image 20250928204308.png",
+    "Pasted image 20250928203350.png",
+    "Pasted image 20250928192737.png",
+    "DATABASE-DESIGN.md",
+    "PROJECT-CHANGES-LOG.md",
+    "DATABASE-ARCHITECTURE-DECISIONS.md",
+    "AGENT-WORKFLOW-GUIDE.md"
+  ]
+}

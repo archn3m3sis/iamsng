@@ -1,0 +1,41 @@
+os_vendor_id,os_vendor_name,os_vendor_description
+1,Microsoft,Develops Windows operating systems for desktops servers and enterprise environments
+2,Apple,Develops macOS iOS iPadOS watchOS and tvOS for consumer and enterprise devices
+3,Google,Develops Android mobile OS and Chrome OS for Chromebooks and cloud-based computing
+4,Canonical,Commercial sponsor of Ubuntu Linux distribution and provider of enterprise support services
+5,Red Hat,Enterprise Linux vendor providing RHEL and related open-source solutions; owned by IBM
+6,SUSE,European enterprise Linux vendor providing SUSE Linux Enterprise Server and Desktop
+7,Oracle,Develops Oracle Linux Oracle Solaris and enterprise database systems
+8,IBM,Develops AIX for Power Systems and z/OS for mainframe systems
+9,Hewlett Packard Enterprise,Develops HP-UX Unix operating system for Integrity and PA-RISC servers
+10,Debian Project,Community-driven organization maintaining Debian GNU/Linux distribution
+11,Fedora Project,Community-driven Linux distribution sponsored by Red Hat
+12,Linux Foundation,Non-profit organization supporting Linux kernel development and related open-source projects
+13,FreeBSD Foundation,Non-profit supporting FreeBSD Unix-like operating system development
+14,OpenBSD Project,Develops OpenBSD focused on security and code correctness
+15,NetBSD Foundation,Develops NetBSD emphasizing portability across hardware platforms
+16,Arch Linux,Community-maintained rolling-release Linux distribution
+17,Gentoo Foundation,Maintains Gentoo Linux source-based distribution
+18,Slackware Linux,One of oldest Linux distributions maintained by Patrick Volkerding
+19,Kali Linux,Offensive Security maintains Kali Linux for penetration testing and security auditing
+20,CentOS Project,Community Enterprise OS based on RHEL sources; now CentOS Stream maintained by Red Hat
+21,Rocky Linux,Community enterprise Linux distribution created as CentOS replacement
+22,AlmaLinux,Community-owned enterprise Linux distribution forked from RHEL
+23,VMware,Develops ESXi hypervisor and related virtualization operating systems; owned by Broadcom
+24,Citrix,Develops XenServer hypervisor and virtualization platforms
+25,Amazon Web Services,Develops Amazon Linux optimized for AWS cloud infrastructure
+26,Huawei,Develops HarmonyOS for mobile devices and IoT ecosystems
+27,Samsung,Develops Tizen OS for smart TVs wearables and IoT devices
+28,Wind River,Develops VxWorks real-time operating system for embedded systems; owned by Aptiv
+29,QNX Software Systems,Develops QNX real-time operating system for automotive and embedded systems; owned by BlackBerry
+30,Juniper Networks,Develops Junos OS for networking equipment and routers
+31,Cisco Systems,Develops IOS and IOS-XE operating systems for networking infrastructure
+32,Arista Networks,Develops EOS network operating system for data center switches
+33,MikroTik,Develops RouterOS for networking equipment and routers
+34,Ubiquiti,Develops UniFi OS and EdgeOS for networking and IoT devices
+35,Proxmox Server Solutions,Develops Proxmox VE virtualization platform based on Debian
+36,TrueNAS,iXsystems develops TrueNAS storage operating system based on FreeBSD
+37,pfSense,Netgate develops pfSense firewall and router operating system based on FreeBSD
+38,OpenWrt Project,Community-developed Linux-based OS for embedded devices and routers
+39,Synology,Develops DiskStation Manager (DSM) for NAS devices
+40,QNAP,Develops QTS and QuTS operating systems for NAS and storage devices

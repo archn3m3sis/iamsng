@@ -1,0 +1,631 @@
+sysfiletype_id,sysfiletype_name,sysfiletype_extension,sysfiletype_category,sysfiletype_os,sysfiletype_binary_text,sysfiletype_user_editable,sysfiletype_criticality,sysfiletype_description,sysfiletype_typical_location
+1,Kernel Mode Driver,.sys,Driver,Windows,Binary,No,Critical,Core driver executable that runs in kernel mode with highest system privileges. Contains device driver code.,C:\Windows\System32\drivers\
+2,Setup Information File,.inf,Driver,Windows,Text,Yes,High,"Plain text file containing driver installation instructions, hardware IDs, registry settings, and file locations. Required for all driver packages.",C:\Windows\INF\
+3,Precompiled INF,.pnf,Driver,Windows,Binary,No,Medium,Binary version of INF file created by Windows during driver installation. Provides faster parsing than text INF files.,C:\Windows\INF\
+4,Catalog File,.cat,Security,Windows,Binary,No,High,Digital signature file containing cryptographic hashes of all files in a driver package. Used to verify authenticity and integrity.,C:\Windows\System32\CatRoot\
+5,Dynamic Link Library,.dll,Library,Windows,Binary,No,Critical,Shared library containing reusable code and resources. Can be loaded by multiple programs simultaneously to save memory.,C:\Windows\System32\
+6,Executable File,.exe,Executable,Windows,Binary,No,High,Portable Executable format. Main executable program file for Windows applications.,C:\Program Files\
+7,Control Panel Applet,.cpl,Configuration,Windows,Binary,No,Medium,Special DLL file that provides Control Panel functionality. Double-clicking opens specific Control Panel settings.,C:\Windows\System32\
+8,Microsoft Installer Package,.msi,Installation,Windows,Binary,No,Low,"Windows Installer package format. Contains installation instructions, files, and configuration for software deployment.",Various
+9,Windows Installer Patch,.msp,Installation,Windows,Binary,No,Low,Patch file for MSI packages. Contains updates and fixes to previously installed software.,Various
+10,Managed Object Format,.mof,Management,Windows,Text,Yes,Medium,WMI schema definition file. Describes management classes and instances for Windows Management Instrumentation.,C:\Windows\System32\wbem\
+11,Multilingual User Interface,.mui,Localization,Windows,Binary,No,Low,Resource-only DLL containing localized strings and resources for different languages. Enables multilingual support.,C:\Windows\System32\en-US\
+12,Registry Hive File,.dat,Registry,Windows,Binary,No,Critical,Binary file containing a portion of the Windows Registry. Contains system and user configuration data.,C:\Windows\System32\config\
+13,Registry File,.reg,Registry,Windows,Text,Yes,Medium,Text file containing registry keys and values. Can be imported to modify the Windows Registry.,Various
+14,Task Sequence,.ts,Configuration,Windows,Binary,No,Medium,Task Scheduler task definition. Contains scheduling information and actions to be performed.,C:\Windows\System32\Tasks\
+15,Device Driver,.drv,Driver,Windows,Binary,No,Critical,Older 16-bit or 32-bit driver format. Legacy driver type from Windows 3.x/9x era.,C:\Windows\System32\
+16,Virtual Device Driver,.vxd,Driver,Windows,Binary,No,Critical,"Virtual device driver for Windows 9x/ME. Legacy 32-bit driver format, not used in NT-based Windows.",C:\Windows\System32\
+17,OCX Control,.ocx,Component,Windows,Binary,No,Medium,ActiveX control library. Provides GUI components and functionality for applications.,C:\Windows\System32\
+18,Type Library,.tlb,Component,Windows,Binary,No,Medium,COM type library containing descriptions of types exposed by ActiveX components.,C:\Windows\System32\
+19,Screen Saver,.scr,Display,Windows,Binary,No,Low,Executable screen saver program. Special type of EXE that can be configured in Display settings.,C:\Windows\System32\
+20,Font File,.ttf,Font,Windows,Binary,No,Low,TrueType font file. Contains scalable font outline data.,C:\Windows\Fonts\
+21,OpenType Font,.otf,Font,Windows,Binary,No,Low,OpenType font format. Enhanced font format supporting advanced typography features.,C:\Windows\Fonts\
+22,Composite Font,.ttc,Font,Windows,Binary,No,Low,TrueType Collection. Single file containing multiple TrueType fonts.,C:\Windows\Fonts\
+23,Bitmap Font,.fon,Font,Windows,Binary,No,Low,Legacy bitmap font format. Non-scalable font used in older Windows versions.,C:\Windows\Fonts\
+24,Cursor File,.cur,Display,Windows,Binary,No,Low,Windows cursor image file. Defines appearance of mouse pointer.,C:\Windows\Cursors\
+25,Animated Cursor,.ani,Display,Windows,Binary,No,Low,Animated cursor file. Contains multiple frames for animated mouse pointer.,C:\Windows\Cursors\
+26,Icon File,.ico,Display,Windows,Binary,No,Low,Windows icon file. Contains small images at multiple resolutions for application icons.,Various
+27,Help File,.hlp,Documentation,Windows,Binary,No,Low,WinHelp format help file. Legacy help system from Windows 3.x/9x era.,Various
+28,Compiled HTML Help,.chm,Documentation,Windows,Binary,No,Low,Compiled HTML Help file. Modern Windows help format with HTML content and search capabilities.,Various
+29,Memory Dump,.dmp,Diagnostic,Windows,Binary,No,Medium,Crash dump or memory dump file. Contains system state information captured during crashes for debugging.,C:\Windows\Minidump\
+30,Event Log,.evt,Logging,Windows,Binary,No,High,Legacy Windows event log format. Used in Windows 2000/XP/Server 2003.,C:\Windows\System32\winevt\Logs\
+31,Event Log,.evtx,Logging,Windows,Binary,No,High,"Modern Windows event log format (Vista+). Contains system, security, and application events in XML-based format.",C:\Windows\System32\winevt\Logs\
+32,System Information,.nfo,Diagnostic,Windows,Text,Yes,Low,"System information file. Often contains plain text system details, also used for NFO art.",Various
+33,Microsoft Management Console,.msc,Administration,Windows,Binary,No,Medium,Management console snap-in file. Launches specific MMC administrative tools.,C:\Windows\System32\
+34,PowerShell Script,.ps1,Scripting,Windows,Text,Yes,Medium,PowerShell script file. Contains PowerShell commands and scripts for automation.,Various
+35,PowerShell Module,.psm1,Scripting,Windows,Text,Yes,Medium,PowerShell module file. Contains reusable PowerShell functions and cmdlets.,Various
+36,PowerShell Data File,.psd1,Scripting,Windows,Text,Yes,Medium,PowerShell data file. Contains module manifests or configuration data in hashtable format.,Various
+37,PowerShell XML,.ps1xml,Scripting,Windows,Text,Yes,Medium,PowerShell formatting and type definition file. Defines how objects are displayed.,Various
+38,Batch File,.bat,Scripting,Windows,Text,Yes,Medium,DOS/Windows batch script. Contains series of commands executed by command interpreter.,Various
+39,Command Script,.cmd,Scripting,Windows,Text,Yes,Medium,Windows NT command script. Similar to BAT but with enhanced features for NT-based systems.,Various
+40,Visual Basic Script,.vbs,Scripting,Windows,Text,Yes,Medium,VBScript file. Contains Visual Basic scripting code executed by Windows Script Host.,Various
+41,JScript File,.js,Scripting,Windows/Cross,Text,Yes,Medium,JavaScript file. Can be executed by Windows Script Host or web browsers.,Various
+42,Windows Script File,.wsf,Scripting,Windows,Text,Yes,Medium,Windows Script Host file. XML-based script that can include multiple scripting languages.,Various
+43,Windows Script Component,.wsc,Scripting,Windows,Text,Yes,Medium,Windows Script Component. COM component implemented in script.,Various
+44,Cabinet Archive,.cab,Archive,Windows,Binary,No,Low,Windows cabinet archive. Compressed file format used for software distribution and updates.,Various
+45,Setup Program,.msu,Installation,Windows,Binary,No,Medium,Microsoft Update Standalone Package. Contains Windows updates and hotfixes.,Various
+46,Application Manifest,.manifest,Configuration,Windows,Text,Yes,Medium,"XML file describing application requirements, dependencies, and UAC elevation needs.",Various
+47,Device Metadata,.devicemetadata-ms,Configuration,Windows,Binary,No,Low,"Device metadata package. Contains device icons, descriptions, and experience information.",C:\Windows\System32\DriverStore\
+48,Profile,.profile,Configuration,Linux/Unix,Text,Yes,Low,"User shell profile script. Executed when user logs in, sets environment variables and preferences.",/home/username/
+49,Bash Profile,.bash_profile,Configuration,Linux/Unix,Text,Yes,Low,Bash-specific login profile. Executed for login shells.,/home/username/
+50,Bash RC,.bashrc,Configuration,Linux/Unix,Text,Yes,Medium,"Bash run commands file. Executed for interactive non-login shells, contains aliases and functions.",/home/username/
+51,Shell Script,.sh,Scripting,Linux/Unix,Text,Yes,Medium,Shell script file. Contains shell commands for Unix/Linux automation.,Various
+52,Executable and Linkable Format,No extension,Executable,Linux/Unix,Binary,No,Critical,ELF binary format. Standard executable format for Linux/Unix systems.,/bin/ /usr/bin/
+53,Shared Object,.so,Library,Linux/Unix,Binary,No,Critical,Shared library file. Linux/Unix equivalent of Windows DLL.,/lib/ /usr/lib/
+54,Archive Library,.a,Library,Linux/Unix,Binary,No,Medium,Static library archive. Contains object files that can be linked into programs.,/usr/lib/
+55,Configuration File,.conf,Configuration,Linux/Unix,Text,Yes,High,Generic configuration file. Plain text file with settings for various Unix/Linux services.,/etc/
+56,Init Configuration,.cfg,Configuration,Linux/Unix,Text,Yes,High,Configuration file format. Used by various system services and applications.,/etc/
+57,RC File,.rc,Configuration,Linux/Unix,Text,Yes,Medium,Run commands file. Contains startup commands for various programs and services.,/etc/
+58,Desktop Entry,.desktop,Configuration,Linux,Text,Yes,Low,Desktop environment application launcher. Defines how applications appear in menus.,/usr/share/applications/
+59,Kernel Module,.ko,Driver,Linux,Binary,No,Critical,Linux kernel module. Loadable kernel module that extends kernel functionality without reboot.,/lib/modules/
+60,Device File,.dev,Device,Linux/Unix,Special,No,Critical,Device special file. Provides interface to device drivers in the kernel.,/dev/
+61,Process File,.proc,Virtual,Linux,Special,No,Critical,Virtual file in procfs. Provides interface to kernel data structures and process information.,/proc/
+62,System File,.sys,Virtual,Linux,Special,No,Critical,Virtual file in sysfs. Exposes kernel objects and attributes.,/sys/
+63,Init Script,.init,Service,Linux,Text,Yes,High,System V init script. Controls system services startup and shutdown.,/etc/init.d/
+64,Systemd Unit,.service,Service,Linux,Text,Yes,High,Systemd service unit file. Defines how systemd manages a service.,/etc/systemd/system/
+65,Systemd Socket,.socket,Service,Linux,Text,Yes,High,Systemd socket unit. Defines socket-based activation for services.,/etc/systemd/system/
+66,Systemd Timer,.timer,Service,Linux,Text,Yes,Medium,"Systemd timer unit. Defines timer-based activation, replacement for cron.",/etc/systemd/system/
+67,Systemd Target,.target,Service,Linux,Text,Yes,High,"Systemd target unit. Groups units together, similar to runlevels.",/etc/systemd/system/
+68,Systemd Mount,.mount,Service,Linux,Text,Yes,High,Systemd mount unit. Defines filesystem mount points.,/etc/systemd/system/
+69,Crontab File,.crontab,Scheduling,Linux/Unix,Text,Yes,Medium,Cron schedule file. Defines scheduled tasks with time-based job scheduling.,/etc/cron.d/
+70,PAM Configuration,.pam,Security,Linux,Text,Yes,Critical,Pluggable Authentication Modules configuration. Controls authentication mechanisms.,/etc/pam.d/
+71,Sudoers File,.sudoers,Security,Linux,Text,Yes,Critical,Sudo configuration file. Defines user privileges for running commands as other users.,/etc/
+72,Shadow Password,.shadow,Security,Linux,Text,No,Critical,Shadow password file. Contains encrypted user passwords and aging information.,/etc/
+73,Password File,.passwd,Security,Linux/Unix,Text,Yes,Critical,User account information file. Contains user account details (without passwords in modern systems).,/etc/
+74,Group File,.group,Security,Linux/Unix,Text,Yes,High,Group information file. Defines user groups and memberships.,/etc/
+75,Hosts File,.hosts,Network,Cross-platform,Text,Yes,Medium,Static hostname to IP address mappings. Overrides DNS for specified hosts.,/etc/ or C:\Windows\System32\drivers\etc\
+76,Network Interfaces,.interfaces,Network,Linux,Text,Yes,High,Network configuration file. Defines network interface settings (Debian-based).,/etc/network/
+77,Resolv Configuration,.resolv.conf,Network,Linux/Unix,Text,Yes,High,DNS resolver configuration. Specifies DNS servers for hostname resolution.,/etc/
+78,Fstab File,.fstab,Storage,Linux/Unix,Text,Yes,Critical,Filesystem table. Defines automatic mount points and filesystem options at boot.,/etc/
+79,Log File,.log,Logging,Cross-platform,Text,Yes,Medium,Generic log file. Contains timestamped entries of system or application events.,/var/log/ or C:\Windows\Logs\
+80,Syslog File,.syslog,Logging,Linux/Unix,Text,Yes,Medium,System log file. Contains system-wide event messages.,/var/log/
+81,Auth Log,.auth.log,Logging,Linux,Text,Yes,High,Authentication log. Records authentication attempts and security events.,/var/log/
+82,Kernel Log,.kern.log,Logging,Linux,Text,Yes,High,Kernel log file. Contains kernel messages and hardware driver events.,/var/log/
+83,Daemon Log,.daemon.log,Logging,Linux,Text,Yes,Medium,Daemon log file. Contains messages from system daemons.,/var/log/
+84,Boot Log,.boot.log,Logging,Linux,Text,Yes,Medium,Boot process log. Contains messages from system boot sequence.,/var/log/
+85,Journal File,.journal,Logging,Linux,Binary,No,High,Systemd journal file. Binary structured logging format for systemd systems.,/var/log/journal/
+86,Property List,.plist,Configuration,macOS,Binary/Text,Yes,Medium,Property list file. XML or binary format used for configuration in macOS.,/Library/Preferences/
+87,Bundle,.bundle,Application,macOS,Directory,No,Medium,macOS application bundle. Directory structure containing application resources.,/Applications/
+88,App Bundle,.app,Application,macOS,Directory,No,Medium,macOS application package. Complete application in directory format.,/Applications/
+89,Kernel Extension,.kext,Driver,macOS,Directory,No,Critical,macOS kernel extension. Driver or kernel module in bundle format.,/System/Library/Extensions/
+90,Framework,.framework,Library,macOS,Directory,No,High,macOS framework. Dynamic library with resources in bundle format.,/System/Library/Frameworks/
+91,Dylib,.dylib,Library,macOS,Binary,No,High,macOS dynamic library. Shared library similar to Linux .so or Windows .dll.,/usr/lib/
+92,Mach-O,No extension,Executable,macOS,Binary,No,Critical,Mach Object executable format. Native executable format for macOS.,/usr/bin/
+93,Launch Agent,.plist,Service,macOS,Text,Yes,High,Launch Agent configuration. Defines user-level background services in macOS.,/Library/LaunchAgents/
+94,Launch Daemon,.plist,Service,macOS,Text,Yes,Critical,Launch Daemon configuration. Defines system-level background services in macOS.,/Library/LaunchDaemons/
+95,Disk Image,.dmg,Archive,macOS,Binary,No,Low,Apple Disk Image. Mountable archive format for software distribution on macOS.,Various
+96,Package,.pkg,Installation,macOS,Binary,No,Medium,macOS installer package. Contains files and installation scripts.,Various
+97,Apple Installer,.mpkg,Installation,macOS,Binary,No,Medium,Meta-package for macOS. Contains multiple PKG packages.,Various
+98,Core Data,.db,Database,Cross-platform,Binary,No,Medium,SQLite database file. Lightweight relational database file.,Various
+99,Berkeley DB,.db,Database,Linux/Unix,Binary,No,Medium,Berkeley DB database. Key-value database file format.,Various
+100,GDBM Database,.gdbm,Database,Linux/Unix,Binary,No,Medium,GNU DBM database. Hash-based database file.,Various
+101,Certificate File,.crt,Security,Cross-platform,Text,No,High,X.509 certificate file. Contains public key certificate in PEM or DER format.,Various
+102,Certificate,.cer,Security,Cross-platform,Binary,No,High,Certificate file. X.509 certificate in binary DER format.,Various
+103,Privacy Enhanced Mail,.pem,Security,Cross-platform,Text,No,High,PEM format file. Contains certificates or private keys in Base64 encoded format.,Various
+104,Distinguished Encoding Rules,.der,Security,Cross-platform,Binary,No,High,DER encoded certificate. Binary format for X.509 certificates.,Various
+105,PKCS#12,.pfx,Security,Windows,Binary,No,Critical,Personal Information Exchange. Contains certificate and private key.,Various
+106,PKCS#12,.p12,Security,Cross-platform,Binary,No,Critical,PKCS#12 certificate bundle. Contains certificate chain and private key.,Various
+107,PKCS#7,.p7b,Security,Cross-platform,Binary,No,High,PKCS#7 certificate bundle. Contains certificates without private key.,Various
+108,Certificate Signing Request,.csr,Security,Cross-platform,Text,No,Medium,Certificate Signing Request. Submitted to CA to request certificate.,Various
+109,Key File,.key,Security,Cross-platform,Text,No,Critical,"Private key file. Contains cryptographic private key, usually in PEM format.",Various
+110,Keystore,.jks,Security,Cross-platform,Binary,No,Critical,Java KeyStore. Contains certificates and private keys for Java applications.,Various
+111,Trust Store,.truststore,Security,Cross-platform,Binary,No,High,Java trust store. Contains trusted CA certificates.,Various
+112,OpenSSH Private Key,.ssh,Security,Linux/Unix,Text,No,Critical,OpenSSH private key. Used for SSH authentication.,~/.ssh/
+113,Known Hosts,.known_hosts,Security,Linux/Unix,Text,Yes,Medium,SSH known hosts file. Contains public keys of known SSH servers.,~/.ssh/
+114,Authorized Keys,.authorized_keys,Security,Linux/Unix,Text,Yes,High,SSH authorized keys. Contains public keys allowed to authenticate.,~/.ssh/
+115,GPG Key,.gpg,Security,Linux/Unix,Binary,No,Critical,GnuPG key file. Contains encrypted data or keys.,Various
+116,ASC Key,.asc,Security,Cross-platform,Text,No,High,ASCII-armored GPG key. Contains GPG key or signature in text format.,Various
+117,Firmware Binary,.bin,Firmware,Cross-platform,Binary,No,Critical,Generic binary firmware file. Contains firmware for hardware devices.,Various
+118,Firmware,.fw,Firmware,Cross-platform,Binary,No,Critical,Firmware image file. Loaded into hardware devices for operation.,Various
+119,Intel HEX,.hex,Firmware,Cross-platform,Text,No,Critical,Intel HEX format. Text representation of binary firmware for microcontrollers.,Various
+120,S-Record,.srec,Firmware,Cross-platform,Text,No,Critical,Motorola S-record format. Text format for firmware images.,Various
+121,UEFI Firmware,.efi,Firmware,Cross-platform,Binary,No,Critical,UEFI executable. Boot loader or firmware driver for UEFI systems.,/boot/efi/
+122,BIOS Image,.rom,Firmware,Cross-platform,Binary,No,Critical,BIOS firmware image. Contains system firmware for motherboard.,Various
+123,ACPI Table,.aml,Firmware,Cross-platform,Binary,No,Critical,ACPI Machine Language. Compiled ACPI table for hardware configuration.,Various
+124,ACPI Source,.asl,Firmware,Cross-platform,Text,Yes,Medium,ACPI Source Language. Human-readable ACPI table definition.,Various
+125,Boot Configuration,.bcd,Boot,Windows,Binary,No,Critical,Boot Configuration Data. Stores boot configuration for Windows Vista+.,C:\Boot\
+126,Boot.ini,.ini,Boot,Windows,Text,Yes,Critical,Boot configuration file. Legacy boot configuration for Windows XP and earlier.,C:\
+127,GRUB Configuration,.cfg,Boot,Linux,Text,Yes,Critical,GRUB bootloader configuration. Defines boot menu and kernel parameters.,/boot/grub/
+128,GRUB2 Config,.grub,Boot,Linux,Text,Yes,Critical,GRUB2 configuration file. Modern GRUB bootloader settings.,/etc/default/
+129,LILO Configuration,.conf,Boot,Linux,Text,Yes,Critical,LILO bootloader configuration. Legacy Linux boot loader settings.,/etc/
+130,U-Boot Script,.scr,Boot,Embedded,Binary,No,Critical,U-Boot boot script. Compiled boot commands for embedded systems.,Various
+131,Device Tree,.dtb,Boot,Linux,Binary,No,Critical,Device Tree Blob. Hardware description for ARM/embedded Linux systems.,/boot/
+132,Device Tree Source,.dts,Boot,Linux,Text,Yes,High,Device Tree Source. Human-readable hardware description.,Various
+133,RAM Disk,.img,Boot,Cross-platform,Binary,No,High,Initial RAM disk image. Contains temporary root filesystem for boot.,/boot/
+134,Initramfs,.cpio,Boot,Linux,Binary,No,High,Initial RAM filesystem. Compressed filesystem loaded at boot.,/boot/
+135,Core Dump,.core,Diagnostic,Linux/Unix,Binary,No,Medium,Core dump file. Memory snapshot of crashed process for debugging.,Various
+136,Crash Dump,.crash,Diagnostic,Linux,Binary,No,Medium,Kernel crash dump. Contains kernel state after system crash.,/var/crash/
+137,Trace File,.trace,Diagnostic,Cross-platform,Text/Binary,No,Medium,Execution trace file. Contains program execution flow for debugging.,Various
+138,Profile Data,.prof,Diagnostic,Cross-platform,Binary,No,Low,Profiling data file. Contains performance profiling information.,Various
+139,Strace Output,.strace,Diagnostic,Linux,Text,Yes,Low,System call trace. Contains log of system calls made by a process.,Various
+140,LTTng Trace,.lttng,Diagnostic,Linux,Binary,No,Medium,Linux Trace Toolkit trace. Contains detailed system tracing data.,Various
+141,Perf Data,.data,Diagnostic,Linux,Binary,No,Medium,Linux perf performance data. Contains CPU performance counters and traces.,Various
+142,ETW Trace,.etl,Diagnostic,Windows,Binary,No,Medium,Event Tracing for Windows. Binary trace log with detailed system events.,Various
+143,WPR Profile,.wprp,Diagnostic,Windows,Text,Yes,Medium,Windows Performance Recorder profile. Defines what data to collect.,Various
+144,Performance Monitor,.blg,Diagnostic,Windows,Binary,No,Medium,Performance Monitor log. Binary format containing performance counter data.,Various
+145,WinDbg Dump,.dmp,Diagnostic,Windows,Binary,No,Medium,Windows debugger dump. Full or partial memory dump for debugging.,Various
+146,Hibernation File,.hiberfil,Power,Windows,Binary,No,Critical,Hibernation file. Contains RAM contents when system hibernates.,C:\
+147,Page File,.pagefile,Memory,Windows,Binary,No,Critical,Windows page file. Virtual memory swap space.,C:\
+148,Swap File,.swp,Memory,Linux/Unix,Binary,No,Critical,Swap file. Virtual memory space for Linux systems.,/swap/
+149,Swap Partition,No extension,Memory,Linux,Special,No,Critical,Swap partition. Dedicated partition for virtual memory.,/dev/
+150,Core System Service,.csc,Service,Windows,Binary,No,Critical,Core System Component. Critical Windows system service.,C:\Windows\System32\
+151,COM Server,.clb,Component,Windows,Binary,No,Medium,COM Class Library. Contains COM component registration data.,C:\Windows\Registration\
+152,Type Library,.olb,Component,Windows,Binary,No,Medium,Object Library. OLE type library for COM objects.,C:\Windows\System32\
+153,Object Linking Embedding,.ole,Component,Windows,Binary,No,Medium,OLE object file. Contains embedded or linked object data.,Various
+154,Windows Metadata,.winmd,Component,Windows,Binary,No,Medium,Windows Runtime metadata. Describes WinRT components and APIs.,C:\Windows\System32\WinMetadata\
+155,Portable Executable,.efi,Boot,Cross-platform,Binary,No,Critical,EFI executable. UEFI boot application or driver.,/boot/efi/EFI/
+156,NVRAM Variable,No extension,Firmware,Cross-platform,Binary,No,Critical,NVRAM variable storage. Stores firmware variables and boot settings.,Various
+157,GUID Partition Table,.gpt,Partition,Cross-platform,Binary,No,Critical,GPT partition table. Modern partition scheme replacing MBR.,Disk structure
+158,Master Boot Record,.mbr,Partition,Cross-platform,Binary,No,Critical,MBR partition table. Legacy partition scheme for BIOS systems.,Disk structure
+159,Volume Boot Record,.vbr,Boot,Cross-platform,Binary,No,Critical,Volume Boot Record. First sector of partition containing boot code.,Partition structure
+160,Registry Transaction Log,.log,Registry,Windows,Binary,No,Critical,Registry transaction log. Contains pending registry changes for recovery.,C:\Windows\System32\config\
+161,Registry Backup,.sav,Registry,Windows,Binary,No,Critical,Registry backup file. Saved copy of registry hive.,C:\Windows\System32\config\
+162,Registry Policy,.pol,Registry,Windows,Binary,No,High,Group Policy registry file. Contains policy settings applied via GPO.,C:\Windows\System32\GroupPolicy\
+163,Administrative Template,.admx,Policy,Windows,Text,Yes,Medium,Administrative template. XML definition of Group Policy settings.,C:\Windows\PolicyDefinitions\
+164,Template Resources,.adml,Policy,Windows,Text,Yes,Medium,Administrative template language file. Localized strings for ADMX templates.,C:\Windows\PolicyDefinitions\en-US\
+165,Security Configuration,.inf,Security,Windows,Text,Yes,High,Security template. Defines security policy settings for Windows.,Various
+166,Security Database,.sdb,Security,Windows,Binary,No,High,Application compatibility database. Contains compatibility fixes and UAC settings.,C:\Windows\AppPatch\
+167,Windows Imaging Format,.wim,Image,Windows,Binary,No,Medium,Windows Imaging Format. Compressed disk image for Windows deployment.,Various
+168,Virtual Hard Disk,.vhd,Image,Windows,Binary,No,Medium,Virtual Hard Disk. Disk image format for virtual machines.,Various
+169,VHDX,.vhdx,Image,Windows,Binary,No,Medium,Virtual Hard Disk v2. Enhanced VHD format with larger size support.,Various
+170,ISO Image,.iso,Image,Cross-platform,Binary,No,Low,ISO 9660 disk image. CD/DVD image file.,Various
+171,Squashfs,.squashfs,Filesystem,Linux,Binary,No,Medium,Compressed read-only filesystem. Used in Linux live systems and snap packages.,Various
+172,CRAMFS,.cramfs,Filesystem,Linux,Binary,No,Medium,Compressed ROM filesystem. Space-efficient read-only filesystem for embedded systems.,Various
+173,JFFS2,.jffs2,Filesystem,Linux,Binary,No,Medium,Journaling Flash File System. Filesystem for NAND and NOR flash memory.,Various
+174,UBIFS,.ubifs,Filesystem,Linux,Binary,No,Medium,Unsorted Block Image File System. Modern flash filesystem for Linux.,Various
+175,Ext4 Filesystem,.ext4,Filesystem,Linux,Binary,No,Critical,Fourth extended filesystem. Standard Linux filesystem format.,Partition
+176,XFS Filesystem,.xfs,Filesystem,Linux,Binary,No,Critical,XFS filesystem. High-performance journaling filesystem.,Partition
+177,Btrfs,.btrfs,Filesystem,Linux,Binary,No,Critical,B-tree filesystem. Advanced Linux filesystem with snapshots and RAID.,Partition
+178,ZFS Pool,No extension,Filesystem,Linux/Unix,Binary,No,Critical,ZFS filesystem. Advanced filesystem with volume management.,Partition
+179,NTFS,.ntfs,Filesystem,Windows,Binary,No,Critical,NT File System. Standard filesystem for modern Windows.,Partition
+180,FAT32,.fat32,Filesystem,Cross-platform,Binary,No,High,File Allocation Table 32. Legacy filesystem with wide compatibility.,Partition
+181,exFAT,.exfat,Filesystem,Cross-platform,Binary,No,High,Extended FAT. Optimized for flash drives with large file support.,Partition
+182,HFS+,.hfsplus,Filesystem,macOS,Binary,No,Critical,Hierarchical File System Plus. Legacy macOS filesystem.,Partition
+183,APFS,.apfs,Filesystem,macOS,Binary,No,Critical,Apple File System. Modern macOS filesystem with encryption and snapshots.,Partition
+184,ReFS,.refs,Filesystem,Windows,Binary,No,High,Resilient File System. Modern Windows filesystem with integrity features.,Partition
+185,Metadata,.metadata,Various,Cross-platform,Binary,No,Medium,Metadata file. Contains information about other files or system state.,Various
+186,Thumbs Database,.db,Cache,Windows,Binary,No,Low,Thumbnail cache. Contains cached image thumbnails for Windows Explorer.,Various
+187,Desktop Database,.ini,Cache,macOS,Binary,No,Low,Desktop database. macOS Finder metadata cache.,Various
+188,Trash Metadata,.trashinfo,System,Linux,Text,Yes,Low,Trash metadata. Contains information about deleted files in Linux trash.,~/.local/share/Trash/
+189,Recycle Bin,.bin,System,Windows,Binary,No,Low,Recycle Bin data. Contains deleted file information.,C:\$Recycle.Bin\
+190,Alternate Data Stream,:.ads,NTFS,Windows,Various,No,Medium,NTFS Alternate Data Stream. Hidden data attached to NTFS files.,Various
+191,Junction Point,No extension,NTFS,Windows,Special,No,Medium,NTFS junction. Directory symbolic link for NTFS filesystem.,Various
+192,Symbolic Link,.symlink,Filesystem,Cross-platform,Special,No,Medium,Symbolic link. Pointer to another file or directory.,Various
+193,Hard Link,No extension,Filesystem,Cross-platform,Special,No,Medium,Hard link. Additional directory entry for existing file.,Various
+194,Socket File,.sock,IPC,Linux/Unix,Special,No,Medium,Unix domain socket. Endpoint for inter-process communication.,/var/run/
+195,Named Pipe,.pipe,IPC,Linux/Unix,Special,No,Medium,Named pipe (FIFO). One-way inter-process communication channel.,Various
+196,Block Device,No extension,Device,Linux/Unix,Special,No,Critical,Block device file. Interface to block storage devices.,/dev/
+197,Character Device,No extension,Device,Linux/Unix,Special,No,Critical,Character device file. Interface to character-based devices.,/dev/
+198,Loop Device,.loop,Device,Linux,Special,No,Medium,Loop device. Makes file appear as block device for mounting.,/dev/
+199,RAM Disk Device,.ram,Device,Linux,Special,No,Medium,RAM disk device. Block device stored in RAM.,/dev/
+200,Temporary File,.tmp,Temporary,Cross-platform,Various,No,Low,Temporary file. Short-lived file for intermediate processing.,/tmp/ or C:\Windows\Temp\
+201,Backup File,.bak,Backup,Cross-platform,Various,No,Low,Backup file. Copy of original file for recovery purposes.,Various
+202,Old File,.old,Backup,Cross-platform,Various,No,Low,Old version file. Renamed original before update.,Various
+203,Lock File,.lock,IPC,Cross-platform,Text,No,Medium,Lock file. Prevents simultaneous access to resource.,Various
+204,PID File,.pid,System,Linux/Unix,Text,Yes,Medium,Process ID file. Contains PID of running daemon.,/var/run/
+205,Session File,.session,System,Cross-platform,Binary,No,Medium,Session data file. Contains user session state information.,Various
+206,Cache File,.cache,Cache,Cross-platform,Binary,No,Low,Generic cache file. Stores temporary computed data for performance.,Various
+207,Index File,.idx,Database,Cross-platform,Binary,No,Medium,Index file. Database index for faster lookups.,Various
+208,Journal File,.jnl,Database,Cross-platform,Binary,No,High,Journal file. Database transaction log for recovery.,Various
+209,Write-Ahead Log,.wal,Database,Cross-platform,Binary,No,High,Write-Ahead Log. Database transaction log used by SQLite.,Various
+210,Shared Memory,.shm,Database,Cross-platform,Binary,No,Medium,Shared memory file. Database shared memory segment.,Various
+211,Plain Text,.txt,Document,Cross-platform,Text,Yes,Low,Unformatted text file. Contains plain ASCII or Unicode text without styling.,Various
+212,Rich Text Format,.rtf,Document,Cross-platform,Text,Yes,Low,Rich Text Format. Text document with basic formatting that's cross-platform compatible.,Various
+213,Markdown,.md,Document,Cross-platform,Text,Yes,Low,Markdown document. Lightweight markup language for formatted text using plain text syntax.,Various
+214,reStructuredText,.rst,Document,Cross-platform,Text,Yes,Low,reStructuredText. Markup language used primarily in Python documentation.,Various
+215,AsciiDoc,.adoc,Document,Cross-platform,Text,Yes,Low,AsciiDoc markup. Advanced plain text format for technical documentation.,Various
+216,Org Mode,.org,Document,Cross-platform,Text,Yes,Low,"Emacs Org mode file. Plain text format for notes, planning, and authoring.",Various
+217,LaTeX Document,.tex,Document,Cross-platform,Text,Yes,Low,LaTeX source file. Markup language for high-quality typesetting and document preparation.,Various
+218,LaTeX Style,.sty,Document,Cross-platform,Text,Yes,Low,LaTeX style file. Contains custom formatting and macro definitions.,Various
+219,LaTeX Class,.cls,Document,Cross-platform,Text,Yes,Low,LaTeX document class. Defines overall document structure and formatting.,Various
+220,BibTeX,.bib,Document,Cross-platform,Text,Yes,Low,BibTeX bibliography. Contains bibliographic references in structured format.,Various
+221,Portable Document Format,.pdf,Document,Cross-platform,Binary,No,Low,PDF document. Platform-independent format for documents with exact layout preservation.,Various
+222,PostScript,.ps,Document,Cross-platform,Text,Yes,Low,PostScript file. Page description language for printing and graphics.,Various
+223,Encapsulated PostScript,.eps,Graphics,Cross-platform,Text/Binary,Yes,Low,EPS graphics. PostScript format for embedding graphics in documents.,Various
+224,Microsoft Word Document,.doc,Document,Windows,Binary,No,Low,Legacy Word document. Binary format used by Microsoft Word 97-2003.,Various
+225,Word Open XML,.docx,Document,Cross-platform,Binary,No,Low,Modern Word document. ZIP-based XML format for Microsoft Word 2007+.,Various
+226,Word Template,.dotx,Document,Cross-platform,Binary,No,Low,Word template. Document template for creating standardized documents.,Various
+227,Word Macro-Enabled,.docm,Document,Windows,Binary,No,Medium,Macro-enabled Word document. DOCX with VBA macro support.,Various
+228,OpenDocument Text,.odt,Document,Cross-platform,Binary,No,Low,OpenDocument text. Open standard document format used by LibreOffice/OpenOffice.,Various
+229,OpenDocument Template,.ott,Document,Cross-platform,Binary,No,Low,OpenDocument template. Template for creating standardized ODF documents.,Various
+230,Pages Document,.pages,Document,macOS,Binary,No,Low,Apple Pages document. Native document format for macOS Pages application.,Various
+231,Microsoft Excel,.xls,Spreadsheet,Windows,Binary,No,Low,Legacy Excel spreadsheet. Binary format used by Microsoft Excel 97-2003.,Various
+232,Excel Open XML,.xlsx,Spreadsheet,Cross-platform,Binary,No,Low,Modern Excel spreadsheet. ZIP-based XML format for Microsoft Excel 2007+.,Various
+233,Excel Template,.xltx,Spreadsheet,Cross-platform,Binary,No,Low,Excel template. Spreadsheet template for standardized workbooks.,Various
+234,Excel Macro-Enabled,.xlsm,Spreadsheet,Windows,Binary,No,Medium,Macro-enabled Excel. XLSX with VBA macro support.,Various
+235,Excel Binary,.xlsb,Spreadsheet,Windows,Binary,No,Low,Excel binary workbook. Optimized binary format for large spreadsheets.,Various
+236,Comma-Separated Values,.csv,Data,Cross-platform,Text,Yes,Low,CSV data file. Plain text tabular data with comma delimiters.,Various
+237,Tab-Separated Values,.tsv,Data,Cross-platform,Text,Yes,Low,TSV data file. Plain text tabular data with tab delimiters.,Various
+238,OpenDocument Spreadsheet,.ods,Spreadsheet,Cross-platform,Binary,No,Low,OpenDocument spreadsheet. Open standard format used by LibreOffice Calc.,Various
+239,Numbers Spreadsheet,.numbers,Spreadsheet,macOS,Binary,No,Low,Apple Numbers spreadsheet. Native format for macOS Numbers application.,Various
+240,PowerPoint Presentation,.ppt,Presentation,Windows,Binary,No,Low,Legacy PowerPoint. Binary format used by Microsoft PowerPoint 97-2003.,Various
+241,PowerPoint Open XML,.pptx,Presentation,Cross-platform,Binary,No,Low,Modern PowerPoint. ZIP-based XML format for Microsoft PowerPoint 2007+.,Various
+242,PowerPoint Template,.potx,Presentation,Cross-platform,Binary,No,Low,PowerPoint template. Presentation template for standardized slides.,Various
+243,PowerPoint Macro-Enabled,.pptm,Presentation,Windows,Binary,No,Medium,Macro-enabled PowerPoint. PPTX with VBA macro support.,Various
+244,PowerPoint Show,.ppsx,Presentation,Cross-platform,Binary,No,Low,PowerPoint slideshow. Opens directly in presentation mode.,Various
+245,OpenDocument Presentation,.odp,Presentation,Cross-platform,Binary,No,Low,OpenDocument presentation. Open standard format used by LibreOffice Impress.,Various
+246,Keynote Presentation,.key,Presentation,macOS,Binary,No,Low,Apple Keynote presentation. Native format for macOS Keynote application.,Various
+247,C Source Code,.c,Programming,Cross-platform,Text,Yes,Low,C programming language source file. Contains C code.,Various
+248,C Header,.h,Programming,Cross-platform,Text,Yes,Low,C/C++ header file. Contains function declarations and macro definitions.,Various
+249,C++ Source,.cpp,Programming,Cross-platform,Text,Yes,Low,C++ source file. Contains C++ object-oriented code.,Various
+250,C++ Header,.hpp,Programming,Cross-platform,Text,Yes,Low,C++ header file. Contains C++ class declarations and templates.,Various
+251,C++ Header,.hxx,Programming,Cross-platform,Text,Yes,Low,C++ header alternate. Alternative extension for C++ headers.,Various
+252,C++ Implementation,.cxx,Programming,Cross-platform,Text,Yes,Low,C++ implementation. Alternative extension for C++ source files.,Various
+253,Objective-C,.m,Programming,macOS/iOS,Text,Yes,Low,Objective-C source. Apple's object-oriented C extension for macOS/iOS.,Various
+254,Objective-C Header,.mm,Programming,macOS/iOS,Text,Yes,Low,Objective-C++ source. Combines Objective-C with C++ features.,Various
+255,Java Source,.java,Programming,Cross-platform,Text,Yes,Low,Java source code. Contains Java class definitions.,Various
+256,Java Class,.class,Programming,Cross-platform,Binary,No,Low,Java bytecode. Compiled Java code for JVM execution.,Various
+257,Java Archive,.jar,Programming,Cross-platform,Binary,No,Low,Java Archive. ZIP archive containing Java classes and resources.,Various
+258,Java Web Archive,.war,Programming,Cross-platform,Binary,No,Low,Web Application Archive. Package for Java web applications.,Various
+259,Enterprise Archive,.ear,Programming,Cross-platform,Binary,No,Low,Enterprise Application Archive. Package for Java EE applications.,Various
+260,Python Source,.py,Programming,Cross-platform,Text,Yes,Low,Python source code. Contains Python programming code.,Various
+261,Python Compiled,.pyc,Programming,Cross-platform,Binary,No,Low,Python bytecode. Compiled Python code for faster loading.,Various
+262,Python Optimized,.pyo,Programming,Cross-platform,Binary,No,Low,Optimized Python bytecode. Python code compiled with optimizations.,Various
+263,Python Wheel,.whl,Programming,Cross-platform,Binary,No,Low,Python Wheel package. Built distribution format for Python packages.,Various
+264,Python Egg,.egg,Programming,Cross-platform,Binary,No,Low,Python Egg. Legacy Python package distribution format.,Various
+265,Cython Source,.pyx,Programming,Cross-platform,Text,Yes,Low,Cython source file. Python-like language that compiles to C.,Various
+266,Ruby Source,.rb,Programming,Cross-platform,Text,Yes,Low,Ruby source code. Contains Ruby programming code.,Various
+267,Ruby Gem,.gem,Programming,Cross-platform,Binary,No,Low,RubyGems package. Distribution format for Ruby libraries.,Various
+268,Perl Script,.pl,Programming,Cross-platform,Text,Yes,Low,Perl script. Contains Perl programming code.,Various
+269,Perl Module,.pm,Programming,Cross-platform,Text,Yes,Low,Perl module. Reusable Perl code library.,Various
+270,PHP Script,.php,Programming,Cross-platform,Text,Yes,Low,PHP script. Server-side scripting language for web development.,Various
+271,PHP Include,.inc,Programming,Cross-platform,Text,Yes,Low,PHP include file. PHP code meant to be included in other scripts.,Various
+272,Go Source,.go,Programming,Cross-platform,Text,Yes,Low,Go source code. Contains Go programming language code.,Various
+273,Rust Source,.rs,Programming,Cross-platform,Text,Yes,Low,Rust source code. Contains Rust systems programming code.,Various
+274,Swift Source,.swift,Programming,macOS/iOS,Text,Yes,Low,Swift source code. Apple's modern programming language for iOS/macOS.,Various
+275,Kotlin Source,.kt,Programming,Cross-platform,Text,Yes,Low,Kotlin source code. Modern JVM language compatible with Java.,Various
+276,Scala Source,.scala,Programming,Cross-platform,Text,Yes,Low,Scala source code. Functional and object-oriented JVM language.,Various
+277,R Script,.r,Programming,Cross-platform,Text,Yes,Low,R script. Statistical computing and graphics language.,Various
+278,R Data,.rdata,Data,Cross-platform,Binary,No,Low,R data file. Saved R workspace with variables and objects.,Various
+279,MATLAB Script,.m,Programming,Cross-platform,Text,Yes,Low,MATLAB script. Contains MATLAB numerical computing code.,Various
+280,MATLAB Figure,.fig,Data,Cross-platform,Binary,No,Low,MATLAB figure. Saved MATLAB plot or visualization.,Various
+281,Mathematica Notebook,.nb,Programming,Cross-platform,Text,Yes,Low,Mathematica notebook. Interactive computational document.,Various
+282,Julia Source,.jl,Programming,Cross-platform,Text,Yes,Low,Julia source code. High-performance numerical computing language.,Various
+283,Haskell Source,.hs,Programming,Cross-platform,Text,Yes,Low,Haskell source code. Purely functional programming language.,Various
+284,Erlang Source,.erl,Programming,Cross-platform,Text,Yes,Low,Erlang source code. Concurrent functional programming language.,Various
+285,Elixir Source,.ex,Programming,Cross-platform,Text,Yes,Low,Elixir source code. Functional language running on Erlang VM.,Various
+286,Clojure Source,.clj,Programming,Cross-platform,Text,Yes,Low,Clojure source code. Lisp dialect for JVM.,Various
+287,Scheme Source,.scm,Programming,Cross-platform,Text,Yes,Low,Scheme source code. Lisp dialect with minimalist design.,Various
+288,Common Lisp,.lisp,Programming,Cross-platform,Text,Yes,Low,Common Lisp source. Standardized Lisp dialect.,Various
+289,F# Source,.fs,Programming,Cross-platform,Text,Yes,Low,F# source code. Functional-first language for .NET.,Various
+290,Visual Basic,.vb,Programming,Windows,Text,Yes,Low,Visual Basic source. .NET programming language.,Various
+291,C# Source,.cs,Programming,Cross-platform,Text,Yes,Low,C# source code. Object-oriented language for .NET platform.,Various
+292,.NET Assembly,.dll,Programming,Cross-platform,Binary,No,Medium,.NET dynamic link library. Compiled .NET code library.,Various
+293,.NET Executable,.exe,Programming,Windows,Binary,No,Low,.NET executable. Compiled .NET application.,Various
+294,TypeScript,.ts,Programming,Cross-platform,Text,Yes,Low,TypeScript source. Typed superset of JavaScript that compiles to JS.,Various
+295,TypeScript Definition,.d.ts,Programming,Cross-platform,Text,Yes,Low,TypeScript type definitions. Describes types for JavaScript libraries.,Various
+296,JavaScript,.js,Programming,Cross-platform,Text,Yes,Low,JavaScript source. Client and server-side scripting language.,Various
+297,JavaScript Module,.mjs,Programming,Cross-platform,Text,Yes,Low,JavaScript ES module. JavaScript with explicit module syntax.,Various
+298,CoffeeScript,.coffee,Programming,Cross-platform,Text,Yes,Low,CoffeeScript source. Language that compiles to JavaScript with cleaner syntax.,Various
+299,Dart Source,.dart,Programming,Cross-platform,Text,Yes,Low,Dart source code. Language for Flutter and web development.,Various
+300,HTML Document,.html,Web,Cross-platform,Text,Yes,Low,HTML document. Markup language for web pages.,Various
+301,HTML5 Document,.htm,Web,Cross-platform,Text,Yes,Low,HTML document alternate. Alternative extension for HTML files.,Various
+302,XHTML Document,.xhtml,Web,Cross-platform,Text,Yes,Low,XHTML document. XML-compliant HTML variant.,Various
+303,Cascading Style Sheet,.css,Web,Cross-platform,Text,Yes,Low,CSS stylesheet. Defines styling and layout for HTML documents.,Various
+304,Sass Stylesheet,.sass,Web,Cross-platform,Text,Yes,Low,Sass stylesheet. CSS preprocessor with indented syntax.,Various
+305,SCSS Stylesheet,.scss,Web,Cross-platform,Text,Yes,Low,SCSS stylesheet. CSS preprocessor with CSS-like syntax.,Various
+306,Less Stylesheet,.less,Web,Cross-platform,Text,Yes,Low,Less stylesheet. Dynamic CSS preprocessor.,Various
+307,Stylus Stylesheet,.styl,Web,Cross-platform,Text,Yes,Low,Stylus stylesheet. Expressive CSS preprocessor.,Various
+308,XML Document,.xml,Data,Cross-platform,Text,Yes,Low,XML document. Extensible markup language for structured data.,Various
+309,XML Schema,.xsd,Data,Cross-platform,Text,Yes,Low,XML Schema Definition. Defines structure and data types for XML documents.,Various
+310,XSL Stylesheet,.xsl,Data,Cross-platform,Text,Yes,Low,XSL stylesheet. Transforms XML documents into other formats.,Various
+311,XSLT Transformation,.xslt,Data,Cross-platform,Text,Yes,Low,XSLT transformation. Advanced XML transformation language.,Various
+312,DTD Definition,.dtd,Data,Cross-platform,Text,Yes,Low,Document Type Definition. Defines structure of XML or SGML documents.,Various
+313,JSON Data,.json,Data,Cross-platform,Text,Yes,Low,JSON data file. Lightweight data interchange format using JavaScript syntax.,Various
+314,JSON Lines,.jsonl,Data,Cross-platform,Text,Yes,Low,JSON Lines format. Newline-delimited JSON for streaming data.,Various
+315,JSON Schema,.schema,Data,Cross-platform,Text,Yes,Low,JSON Schema. Vocabulary for validating JSON documents.,Various
+316,YAML Data,.yaml,Data,Cross-platform,Text,Yes,Low,YAML data file. Human-readable data serialization format.,Various
+317,YAML Alternate,.yml,Data,Cross-platform,Text,Yes,Low,YAML alternate extension. Same as YAML with shorter extension.,Various
+318,TOML Config,.toml,Configuration,Cross-platform,Text,Yes,Low,TOML configuration. Minimal configuration file format that's easy to read.,Various
+319,INI Configuration,.ini,Configuration,Cross-platform,Text,Yes,Low,INI configuration file. Simple key-value configuration format.,Various
+320,Properties File,.properties,Configuration,Cross-platform,Text,Yes,Low,Java properties. Key-value configuration format used by Java applications.,Various
+321,Environment File,.env,Configuration,Cross-platform,Text,Yes,Medium,Environment variables. Contains environment variable definitions.,Various
+322,EditorConfig,.editorconfig,Configuration,Cross-platform,Text,Yes,Low,EditorConfig file. Defines coding styles for editors and IDEs.,Various
+323,Makefile,Makefile,Build,Cross-platform,Text,Yes,Low,GNU Make build file. Contains build instructions and dependencies.,Various
+324,CMake Script,.cmake,Build,Cross-platform,Text,Yes,Low,CMake script. Cross-platform build system configuration.,Various
+325,CMakeLists,CMakeLists.txt,Build,Cross-platform,Text,Yes,Low,CMake project file. Main CMake configuration file.,Various
+326,Ninja Build,.ninja,Build,Cross-platform,Text,No,Low,Ninja build file. Fast build system focusing on speed.,Various
+327,Gradle Build,.gradle,Build,Cross-platform,Text,Yes,Low,Gradle build script. Build automation for Java projects.,Various
+328,Maven POM,.pom,Build,Cross-platform,Text,Yes,Low,Maven Project Object Model. XML configuration for Maven builds.,Various
+329,Ant Build,.xml,Build,Cross-platform,Text,Yes,Low,Apache Ant build file. Java-based build tool configuration.,Various
+330,NPM Package,.json,Configuration,Cross-platform,Text,Yes,Low,NPM package.json. Node.js project metadata and dependencies.,Various
+331,Yarn Lock,.lock,Configuration,Cross-platform,Text,No,Low,Yarn lock file. Locked dependency versions for reproducible builds.,Various
+332,Composer JSON,.json,Configuration,Cross-platform,Text,Yes,Low,Composer configuration. PHP dependency manager configuration.,Various
+333,Gemfile,Gemfile,Configuration,Cross-platform,Text,Yes,Low,Ruby Gemfile. Ruby dependency specification.,Various
+334,Requirements,.txt,Configuration,Cross-platform,Text,Yes,Low,Python requirements. List of Python package dependencies.,Various
+335,Pipfile,Pipfile,Configuration,Cross-platform,Text,Yes,Low,Pipenv configuration. Python dependency and virtual environment manager.,Various
+336,Poetry Lock,.lock,Configuration,Cross-platform,Text,No,Low,Poetry lock file. Python dependency lock for reproducible installs.,Various
+337,Cargo TOML,.toml,Configuration,Cross-platform,Text,Yes,Low,Cargo manifest. Rust package manager configuration.,Various
+338,Go Module,.mod,Configuration,Cross-platform,Text,Yes,Low,Go module file. Go dependency management configuration.,Various
+339,Git Ignore,.gitignore,Version Control,Cross-platform,Text,Yes,Low,Git ignore patterns. Specifies files to ignore in version control.,Various
+340,Git Attributes,.gitattributes,Version Control,Cross-platform,Text,Yes,Low,Git attributes. Defines attributes for paths in repository.,Various
+341,Git Config,.gitconfig,Version Control,Cross-platform,Text,Yes,Low,Git configuration. User and repository Git settings.,Various
+342,Git Keep,.gitkeep,Version Control,Cross-platform,Text,Yes,Low,Git keep file. Placeholder to keep empty directories in Git.,Various
+343,Mercurial Ignore,.hgignore,Version Control,Cross-platform,Text,Yes,Low,Mercurial ignore patterns. Files to ignore in Mercurial VCS.,Various
+344,SVN Ignore,.svnignore,Version Control,Cross-platform,Text,Yes,Low,Subversion ignore. Patterns for SVN to ignore.,Various
+345,Docker File,Dockerfile,Container,Cross-platform,Text,Yes,Low,Dockerfile. Instructions for building Docker container images.,Various
+346,Docker Compose,.yml,Container,Cross-platform,Text,Yes,Low,Docker Compose file. Multi-container Docker application definition.,Various
+347,Docker Ignore,.dockerignore,Container,Cross-platform,Text,Yes,Low,Docker ignore patterns. Files to exclude from Docker build context.,Various
+348,Kubernetes YAML,.yaml,Container,Cross-platform,Text,Yes,Low,Kubernetes manifest. Defines Kubernetes resources and deployments.,Various
+349,Helm Chart,.yaml,Container,Cross-platform,Text,Yes,Low,Helm chart template. Kubernetes package manager templates.,Various
+350,Vagrant File,Vagrantfile,Virtualization,Cross-platform,Text,Yes,Low,Vagrant configuration. Defines virtual machine setup and provisioning.,Various
+351,Terraform,.tf,Infrastructure,Cross-platform,Text,Yes,Low,Terraform configuration. Infrastructure as code definition.,Various
+352,Terraform Variables,.tfvars,Infrastructure,Cross-platform,Text,Yes,Low,Terraform variables. Input values for Terraform configurations.,Various
+353,Ansible Playbook,.yml,Infrastructure,Cross-platform,Text,Yes,Low,Ansible playbook. Automation scripts for configuration management.,Various
+354,Chef Recipe,.rb,Infrastructure,Cross-platform,Text,Yes,Low,Chef recipe. Ruby-based infrastructure automation scripts.,Various
+355,Puppet Manifest,.pp,Infrastructure,Cross-platform,Text,Yes,Low,Puppet manifest. Declarative configuration management code.,Various
+356,CloudFormation,.json,Infrastructure,Cross-platform,Text,Yes,Low,AWS CloudFormation template. Defines AWS infrastructure as code.,Various
+357,ARM Template,.json,Infrastructure,Cross-platform,Text,Yes,Low,Azure Resource Manager template. Azure infrastructure as code.,Various
+358,SQL Script,.sql,Database,Cross-platform,Text,Yes,Low,SQL script. Contains SQL database queries and commands.,Various
+359,PL/SQL,.pls,Database,Cross-platform,Text,Yes,Low,PL/SQL script. Oracle's procedural SQL extension.,Various
+360,T-SQL,.tsql,Database,Cross-platform,Text,Yes,Low,Transact-SQL. Microsoft SQL Server's SQL extension.,Various
+361,MySQL Dump,.sql,Database,Cross-platform,Text,Yes,Low,MySQL database dump. SQL statements to recreate database.,Various
+362,SQLite Database,.sqlite,Database,Cross-platform,Binary,No,Medium,SQLite database file. Self-contained SQL database file.,Various
+363,SQLite3 Database,.sqlite3,Database,Cross-platform,Binary,No,Medium,SQLite3 database. Version 3 format of SQLite database.,Various
+364,Database,.db,Database,Cross-platform,Binary,No,Medium,Generic database file. Various database formats use this extension.,Various
+365,Microsoft Access,.mdb,Database,Windows,Binary,No,Low,Access database. Legacy Microsoft Access database format.,Various
+366,Access 2007+,.accdb,Database,Windows,Binary,No,Low,Modern Access database. Microsoft Access 2007+ format.,Various
+367,dBASE,.dbf,Database,Cross-platform,Binary,No,Low,dBASE database. Legacy database format still used in GIS.,Various
+368,FileMaker,.fmp12,Database,Cross-platform,Binary,No,Low,FileMaker database. Cross-platform database application.,Various
+369,MongoDB BSON,.bson,Database,Cross-platform,Binary,No,Low,BSON format. Binary JSON format used by MongoDB.,Various
+370,Protocol Buffers,.proto,Data,Cross-platform,Text,Yes,Low,Protocol Buffers definition. Google's language-neutral data serialization.,Various
+371,Apache Avro,.avro,Data,Cross-platform,Binary,No,Low,Avro data file. Row-oriented remote procedure call and data serialization.,Various
+372,Apache Parquet,.parquet,Data,Cross-platform,Binary,No,Low,Parquet file. Columnar storage format for big data processing.,Various
+373,ORC File,.orc,Data,Cross-platform,Binary,No,Low,Optimized Row Columnar. High-performance columnar storage format.,Various
+374,MessagePack,.msgpack,Data,Cross-platform,Binary,No,Low,MessagePack. Efficient binary serialization format.,Various
+375,CBOR,.cbor,Data,Cross-platform,Binary,No,Low,Concise Binary Object Representation. Compact binary data format.,Various
+376,GraphQL Schema,.graphql,Data,Cross-platform,Text,Yes,Low,GraphQL schema. API query language schema definition.,Various
+377,OpenAPI Spec,.yaml,API,Cross-platform,Text,Yes,Low,OpenAPI specification. REST API documentation standard.,Various
+378,Swagger,.json,API,Cross-platform,Text,Yes,Low,Swagger definition. API documentation and specification.,Various
+379,WSDL,.wsdl,API,Cross-platform,Text,Yes,Low,Web Services Description Language. XML description of web service.,Various
+380,SOAP,.xml,API,Cross-platform,Text,Yes,Low,SOAP message. XML-based messaging protocol for web services.,Various
+381,Assembly,.asm,Programming,Cross-platform,Text,Yes,Low,Assembly language. Low-level CPU-specific programming language.,Various
+382,Assembly,.s,Programming,Cross-platform,Text,Yes,Low,Assembly source. Alternative extension for assembly language.,Various
+383,NASM Assembly,.nasm,Programming,Cross-platform,Text,Yes,Low,NASM assembly. Netwide Assembler format.,Various
+384,Object File,.o,Programming,Cross-platform,Binary,No,Low,Object file. Compiled but not linked machine code.,Various
+385,Object File,.obj,Programming,Windows,Binary,No,Low,Object file Windows. Compiled object code for Windows.,Various
+386,Archive,.a,Programming,Cross-platform,Binary,No,Low,Static library archive. Contains compiled object files.,Various
+387,Windows Library,.lib,Programming,Windows,Binary,No,Low,Import library. Contains linking information for DLLs.,Various
+388,Linux Shared Object,.so,Programming,Linux,Binary,No,Medium,"Shared object. Linux shared library, similar to DLL.",Various
+389,macOS Dynamic Library,.dylib,Programming,macOS,Binary,No,Medium,Dynamic library. macOS shared library format.,Various
+390,WebAssembly,.wasm,Programming,Cross-platform,Binary,No,Low,WebAssembly binary. Compiled binary format for web browsers.,Various
+391,WebAssembly Text,.wat,Programming,Cross-platform,Text,Yes,Low,WebAssembly Text. Human-readable WebAssembly format.,Various
+392,LLVM Bitcode,.bc,Programming,Cross-platform,Binary,No,Low,LLVM bitcode. Intermediate representation for LLVM compiler.,Various
+393,LLVM IR,.ll,Programming,Cross-platform,Text,Yes,Low,LLVM IR assembly. Human-readable LLVM intermediate representation.,Various
+394,Shader,.glsl,Programming,Cross-platform,Text,Yes,Low,GLSL shader. OpenGL Shading Language for graphics programming.,Various
+395,Vertex Shader,.vert,Programming,Cross-platform,Text,Yes,Low,Vertex shader. Processes vertex data in graphics pipeline.,Various
+396,Fragment Shader,.frag,Programming,Cross-platform,Text,Yes,Low,Fragment shader. Processes pixel colors in graphics pipeline.,Various
+397,HLSL Shader,.hlsl,Programming,Windows,Text,Yes,Low,HLSL shader. High-Level Shading Language for DirectX.,Various
+398,Metal Shader,.metal,Programming,macOS/iOS,Text,Yes,Low,Metal shader. Apple's shading language for GPU programming.,Various
+399,SPIR-V,.spv,Programming,Cross-platform,Binary,No,Low,SPIR-V binary. Standard intermediate representation for GPU shaders.,Various
+400,Jupyter Notebook,.ipynb,Programming,Cross-platform,Text,Yes,Low,Jupyter notebook. Interactive computational document with code and output.,Various
+401,R Markdown,.rmd,Programming,Cross-platform,Text,Yes,Low,R Markdown. Combines R code with Markdown for reproducible research.,Various
+402,Quarto Document,.qmd,Programming,Cross-platform,Text,Yes,Low,Quarto document. Scientific and technical publishing system.,Various
+403,Literate Haskell,.lhs,Programming,Cross-platform,Text,Yes,Low,Literate Haskell. Haskell code with documentation in single file.,Various
+404,Noweb,.nw,Programming,Cross-platform,Text,Yes,Low,Noweb literate programming. Language-independent literate programming.,Various
+405,Sweave,.rnw,Programming,Cross-platform,Text,Yes,Low,Sweave document. Embeds R code in LaTeX documents.,Various
+406,ZIP Archive,.zip,Archive,Cross-platform,Binary,No,Low,ZIP archive. Compressed archive supporting multiple files with folder structure.,Various
+407,7-Zip Archive,.7z,Archive,Cross-platform,Binary,No,Low,7-Zip archive. High compression ratio archive format.,Various
+408,RAR Archive,.rar,Archive,Cross-platform,Binary,No,Low,RAR archive. Proprietary compressed archive format.,Various
+409,TAR Archive,.tar,Archive,Cross-platform,Binary,No,Low,Tape archive. Uncompressed archive bundling multiple files.,Various
+410,GZip Compressed,.gz,Archive,Cross-platform,Binary,No,Low,"GZip compressed file. GNU zip compression, often combined with TAR.",Various
+411,BZip2 Compressed,.bz2,Archive,Cross-platform,Binary,No,Low,"BZip2 compressed. Higher compression than GZip, slower speed.",Various
+412,XZ Compressed,.xz,Archive,Cross-platform,Binary,No,Low,XZ compressed. High compression using LZMA algorithm.,Various
+413,LZMA Compressed,.lzma,Archive,Cross-platform,Binary,No,Low,LZMA compressed. Lempel-Ziv-Markov chain algorithm compression.,Various
+414,LZ4 Compressed,.lz4,Archive,Cross-platform,Binary,No,Low,LZ4 compressed. Extremely fast compression algorithm.,Various
+415,Zstandard,.zst,Archive,Cross-platform,Binary,No,Low,Zstandard compressed. Fast compression with good ratios.,Various
+416,TAR GZip,.tar.gz,Archive,Cross-platform,Binary,No,Low,TAR GZip archive. Combined TAR archive with GZip compression.,Various
+417,TAR BZip2,.tar.bz2,Archive,Cross-platform,Binary,No,Low,TAR BZip2 archive. Combined TAR archive with BZip2 compression.,Various
+418,TAR XZ,.tar.xz,Archive,Cross-platform,Binary,No,Low,TAR XZ archive. Combined TAR archive with XZ compression.,Various
+419,Compress,.z,Archive,Unix,Binary,No,Low,Unix compress. Legacy Unix compression format.,Various
+420,StuffIt Archive,.sit,Archive,macOS,Binary,No,Low,StuffIt archive. Legacy macOS compression format.,Various
+421,ARJ Archive,.arj,Archive,Cross-platform,Binary,No,Low,ARJ archive. Legacy DOS compression format.,Various
+422,LHarc Archive,.lzh,Archive,Cross-platform,Binary,No,Low,LHA archive. Japanese compression format popular in 1990s.,Various
+423,ACE Archive,.ace,Archive,Cross-platform,Binary,No,Low,ACE archive. High compression ratio proprietary format.,Various
+424,ARC Archive,.arc,Archive,Cross-platform,Binary,No,Low,ARC archive. Legacy compression format from 1980s.,Various
+425,Bitmap Image,.bmp,Image,Cross-platform,Binary,No,Low,Bitmap image. Uncompressed raster graphics format.,Various
+426,JPEG Image,.jpg,Image,Cross-platform,Binary,No,Low,JPEG image. Lossy compressed image format for photographs.,Various
+427,JPEG Alternate,.jpeg,Image,Cross-platform,Binary,No,Low,JPEG alternate extension. Same as JPG format.,Various
+428,PNG Image,.png,Image,Cross-platform,Binary,No,Low,PNG image. Lossless compressed raster graphics with transparency.,Various
+429,GIF Image,.gif,Image,Cross-platform,Binary,No,Low,GIF image. Supports animation and limited 256-color palette.,Various
+430,WebP Image,.webp,Image,Cross-platform,Binary,No,Low,WebP image. Modern format with superior compression and quality.,Various
+431,TIFF Image,.tiff,Image,Cross-platform,Binary,No,Low,"TIFF image. Flexible format for high-quality images, used in publishing.",Various
+432,TIFF Alternate,.tif,Image,Cross-platform,Binary,No,Low,TIFF alternate extension. Same as TIFF format.,Various
+433,SVG Image,.svg,Image,Cross-platform,Text,Yes,Low,SVG image. Scalable vector graphics in XML format.,Various
+434,SVGZ Compressed,.svgz,Image,Cross-platform,Binary,No,Low,Compressed SVG. GZip-compressed SVG for smaller file size.,Various
+435,RAW Image,.raw,Image,Cross-platform,Binary,No,Low,RAW image. Unprocessed image data from camera sensor.,Various
+436,Canon RAW,.cr2,Image,Cross-platform,Binary,No,Low,Canon RAW format. Canon camera's proprietary RAW format.,Various
+437,Canon RAW 3,.cr3,Image,Cross-platform,Binary,No,Low,Canon RAW 3. Newer Canon RAW format.,Various
+438,Nikon RAW,.nef,Image,Cross-platform,Binary,No,Low,Nikon RAW format. Nikon camera's proprietary RAW format.,Various
+439,Sony RAW,.arw,Image,Cross-platform,Binary,No,Low,Sony RAW format. Sony camera's proprietary RAW format.,Various
+440,Adobe DNG,.dng,Image,Cross-platform,Binary,No,Low,Digital Negative. Adobe's open RAW image format.,Various
+441,Photoshop,.psd,Image,Cross-platform,Binary,No,Low,Photoshop document. Adobe Photoshop layered image format.,Various
+442,Photoshop Big,.psb,Image,Cross-platform,Binary,No,Low,"Large Photoshop document. For images larger than 30,000 pixels.",Various
+443,GIMP Image,.xcf,Image,Cross-platform,Binary,No,Low,GIMP native format. Preserves layers and editing information.,Various
+444,Krita Image,.kra,Image,Cross-platform,Binary,No,Low,Krita document. Digital painting application native format.,Various
+445,Paint.NET,.pdn,Image,Windows,Binary,No,Low,Paint.NET image. Windows image editor native format with layers.,Various
+446,Windows Icon,.ico,Image,Windows,Binary,No,Low,Windows icon. Contains multiple resolution icons for Windows.,Various
+447,Cursor,.cur,Image,Windows,Binary,No,Low,Windows cursor. Mouse pointer image file.,Various
+448,Apple Icon,.icns,Image,macOS,Binary,No,Low,Apple icon format. Contains multiple resolution icons for macOS.,Various
+449,JPEG 2000,.jp2,Image,Cross-platform,Binary,No,Low,JPEG 2000. Advanced image compression with better quality.,Various
+450,HEIF Image,.heif,Image,Cross-platform,Binary,No,Low,High Efficiency Image Format. Modern efficient image format.,Various
+451,HEIC Image,.heic,Image,Cross-platform,Binary,No,Low,HEIC image. Apple's implementation of HEIF format.,Various
+452,AVIF Image,.avif,Image,Cross-platform,Binary,No,Low,AV1 Image Format. Very efficient modern image format.,Various
+453,JXL Image,.jxl,Image,Cross-platform,Binary,No,Low,JPEG XL. Next-generation image format with excellent compression.,Various
+454,PCX Image,.pcx,Image,Cross-platform,Binary,No,Low,PC Paintbrush. Legacy raster image format from DOS era.,Various
+455,TGA Image,.tga,Image,Cross-platform,Binary,No,Low,Targa image. Raster graphics format supporting transparency.,Various
+456,DDS Texture,.dds,Image,Cross-platform,Binary,No,Low,DirectDraw Surface. Texture format for 3D graphics applications.,Various
+457,Audio Interchange,.aiff,Audio,Cross-platform,Binary,No,Low,AIFF audio. Uncompressed audio format developed by Apple.,Various
+458,AIFF Compressed,.aifc,Audio,Cross-platform,Binary,No,Low,AIFF compressed. Compressed variant of AIFF format.,Various
+459,WAV Audio,.wav,Audio,Cross-platform,Binary,No,Low,Waveform audio. Uncompressed audio format for Windows.,Various
+460,MP3 Audio,.mp3,Audio,Cross-platform,Binary,No,Low,MP3 audio. Lossy compressed audio with wide compatibility.,Various
+461,AAC Audio,.aac,Audio,Cross-platform,Binary,No,Low,"AAC audio. Advanced audio compression, better than MP3.",Various
+462,M4A Audio,.m4a,Audio,Cross-platform,Binary,No,Low,MPEG-4 audio. AAC audio in MP4 container.,Various
+463,FLAC Audio,.flac,Audio,Cross-platform,Binary,No,Low,FLAC audio. Free lossless audio compression.,Various
+464,ALAC Audio,.alac,Audio,Cross-platform,Binary,No,Low,Apple Lossless. Apple's lossless audio compression.,Various
+465,Ogg Vorbis,.ogg,Audio,Cross-platform,Binary,No,Low,Ogg Vorbis audio. Open-source lossy audio compression.,Various
+466,Opus Audio,.opus,Audio,Cross-platform,Binary,No,Low,Opus audio. Highly efficient audio codec for internet streaming.,Various
+467,WMA Audio,.wma,Audio,Windows,Binary,No,Low,Windows Media Audio. Microsoft's lossy audio format.,Various
+468,APE Audio,.ape,Audio,Cross-platform,Binary,No,Low,Monkey's Audio. Lossless audio compression format.,Various
+469,WavPack,.wv,Audio,Cross-platform,Binary,No,Low,WavPack audio. Hybrid lossless audio compression.,Various
+470,DSD Audio,.dsf,Audio,Cross-platform,Binary,No,Low,DSD stream. High-resolution audio format for audiophiles.,Various
+471,MIDI,.mid,Audio,Cross-platform,Binary,No,Low,MIDI file. Musical Instrument Digital Interface sequence data.,Various
+472,MIDI Alternate,.midi,Audio,Cross-platform,Binary,No,Low,MIDI alternate extension. Same as MID format.,Various
+473,MOD Audio,.mod,Audio,Cross-platform,Binary,No,Low,MOD music. Tracker module format from Amiga era.,Various
+474,S3M Audio,.s3m,Audio,Cross-platform,Binary,No,Low,ScreamTracker 3 module. PC tracker music format.,Various
+475,XM Audio,.xm,Audio,Cross-platform,Binary,No,Low,Extended Module. FastTracker 2 music format.,Various
+476,IT Audio,.it,Audio,Cross-platform,Binary,No,Low,Impulse Tracker. Advanced tracker music format.,Various
+477,MPEG Video,.mpg,Video,Cross-platform,Binary,No,Low,MPEG video. Standard video compression format.,Various
+478,MPEG Alternate,.mpeg,Video,Cross-platform,Binary,No,Low,MPEG alternate extension. Same as MPG format.,Various
+479,MP4 Video,.mp4,Video,Cross-platform,Binary,No,Low,MPEG-4 video. Modern container for video and audio.,Various
+480,M4V Video,.m4v,Video,Cross-platform,Binary,No,Low,iTunes video. MP4 variant used by Apple.,Various
+481,MOV Video,.mov,Video,Cross-platform,Binary,No,Low,QuickTime movie. Apple's multimedia container format.,Various
+482,AVI Video,.avi,Video,Windows,Binary,No,Low,Audio Video Interleave. Legacy Windows video container.,Various
+483,WMV Video,.wmv,Video,Windows,Binary,No,Low,Windows Media Video. Microsoft's video compression format.,Various
+484,FLV Video,.flv,Video,Cross-platform,Binary,No,Low,Flash video. Legacy web video format for Adobe Flash.,Various
+485,WebM Video,.webm,Video,Cross-platform,Binary,No,Low,WebM video. Open web video format using VP8/VP9 codecs.,Various
+486,MKV Video,.mkv,Video,Cross-platform,Binary,No,Low,Matroska video. Open container supporting multiple codecs.,Various
+487,OGV Video,.ogv,Video,Cross-platform,Binary,No,Low,Ogg video. Open video format using Theora codec.,Various
+488,3GPP Video,.3gp,Video,Cross-platform,Binary,No,Low,3GPP video. Mobile phone video format.,Various
+489,3GPP2 Video,.3g2,Video,Cross-platform,Binary,No,Low,3GPP2 video. Enhanced mobile video format.,Various
+490,VOB Video,.vob,Video,Cross-platform,Binary,No,Low,DVD video object. DVD video and audio container.,Various
+491,TS Video,.ts,Video,Cross-platform,Binary,No,Low,MPEG transport stream. Container for broadcast video.,Various
+492,M2TS Video,.m2ts,Video,Cross-platform,Binary,No,Low,Blu-ray transport stream. High-definition video format.,Various
+493,MTS Video,.mts,Video,Cross-platform,Binary,No,Low,AVCHD video. HD camcorder video format.,Various
+494,ProRes,.mov,Video,macOS,Binary,No,Low,Apple ProRes. Professional video codec for editing.,Various
+495,DNxHD,.mxf,Video,Cross-platform,Binary,No,Low,Avid DNxHD. Professional video codec in MXF container.,Various
+496,Cinema DNG,.dng,Video,Cross-platform,Binary,No,Low,Cinema DNG. RAW video format for professional cameras.,Various
+497,SRT Subtitle,.srt,Subtitle,Cross-platform,Text,Yes,Low,SubRip subtitle. Simple timed text subtitle format.,Various
+498,ASS Subtitle,.ass,Subtitle,Cross-platform,Text,Yes,Low,Advanced SubStation Alpha. Subtitle format with styling.,Various
+499,SSA Subtitle,.ssa,Subtitle,Cross-platform,Text,Yes,Low,SubStation Alpha. Legacy subtitle format with basic styling.,Various
+500,VTT Subtitle,.vtt,Subtitle,Cross-platform,Text,Yes,Low,WebVTT subtitle. Web video text tracks format.,Various
+501,SUB Subtitle,.sub,Subtitle,Cross-platform,Text/Binary,Yes,Low,MicroDVD subtitle. Simple frame-based subtitle format.,Various
+502,SBV Subtitle,.sbv,Subtitle,Cross-platform,Text,Yes,Low,YouTube subtitle. Simple timed caption format.,Various
+503,LRC Lyrics,.lrc,Subtitle,Cross-platform,Text,Yes,Low,LRC lyrics. Synchronized lyrics format for audio.,Various
+504,EPUB eBook,.epub,eBook,Cross-platform,Binary,No,Low,EPUB eBook. Open standard for reflowable digital books.,Various
+505,MOBI eBook,.mobi,eBook,Cross-platform,Binary,No,Low,Mobipocket eBook. Amazon Kindle legacy format.,Various
+506,AZW eBook,.azw,eBook,Cross-platform,Binary,No,Low,Amazon Kindle. Proprietary Kindle eBook format.,Various
+507,AZW3 eBook,.azw3,eBook,Cross-platform,Binary,No,Low,Kindle Format 8. Modern Kindle eBook format.,Various
+508,CBZ Comic,.cbz,eBook,Cross-platform,Binary,No,Low,Comic book ZIP. ZIP archive of images for comic books.,Various
+509,CBR Comic,.cbr,eBook,Cross-platform,Binary,No,Low,Comic book RAR. RAR archive of images for comic books.,Various
+510,FB2 eBook,.fb2,eBook,Cross-platform,Text,Yes,Low,FictionBook. XML-based eBook format popular in Russia.,Various
+511,DjVu,.djvu,Document,Cross-platform,Binary,No,Low,DjVu document. Compressed format for scanned documents.,Various
+512,IFC Model,.ifc,CAD,Cross-platform,Text,Yes,Low,Industry Foundation Classes. BIM data exchange format for buildings.,Various
+513,DWG Drawing,.dwg,CAD,Cross-platform,Binary,No,Low,AutoCAD drawing. Native format for AutoCAD.,Various
+514,DXF Drawing,.dxf,CAD,Cross-platform,Text,Yes,Low,Drawing Exchange Format. AutoCAD interchange format.,Various
+515,STL 3D,.stl,3D,Cross-platform,Binary/Text,Yes,Low,Stereolithography. 3D printing and CAD mesh format.,Various
+516,OBJ 3D,.obj,3D,Cross-platform,Text,Yes,Low,Wavefront OBJ. 3D geometry definition file.,Various
+517,FBX 3D,.fbx,3D,Cross-platform,Binary,No,Low,Filmbox. Autodesk 3D asset exchange format.,Various
+518,COLLADA,.dae,3D,Cross-platform,Text,Yes,Low,COLLADA. Open 3D asset exchange format in XML.,Various
+519,glTF 3D,.gltf,3D,Cross-platform,Text,Yes,Low,GL Transmission Format. Open 3D scene format for web.,Various
+520,glTF Binary,.glb,3D,Cross-platform,Binary,No,Low,Binary glTF. Compact binary version of glTF.,Various
+521,3DS,.3ds,3D,Cross-platform,Binary,No,Low,3D Studio. Legacy 3D model format from Autodesk.,Various
+522,Blend,.blend,3D,Cross-platform,Binary,No,Low,Blender file. Native format for Blender 3D software.,Various
+523,PLY 3D,.ply,3D,Cross-platform,Text/Binary,Yes,Low,Polygon file. 3D scanning format for point clouds.,Various
+524,X3D,.x3d,3D,Cross-platform,Text,Yes,Low,Extensible 3D. XML-based 3D scene format.,Various
+525,USDZ,.usdz,3D,Cross-platform,Binary,No,Low,Universal Scene Description. Apple's AR 3D format.,Various
+526,STEP,.step,CAD,Cross-platform,Text,Yes,Low,STEP CAD. ISO standard for product model data exchange.,Various
+527,IGES,.iges,CAD,Cross-platform,Text,Yes,Low,Initial Graphics Exchange. CAD data interchange format.,Various
+528,Parasolid,.x_t,CAD,Cross-platform,Text,Yes,Low,Parasolid. Precise 3D geometric modeling format.,Various
+529,VRML,.wrl,3D,Cross-platform,Text,Yes,Low,Virtual Reality Modeling. 3D scene description format.,Various
+530,Email Message,.eml,Email,Cross-platform,Text,Yes,Low,Email message file. Standard internet email format.,Various
+531,Outlook Message,.msg,Email,Windows,Binary,No,Low,Outlook message. Microsoft Outlook proprietary email format.,Various
+532,MBOX Mailbox,.mbox,Email,Cross-platform,Text,Yes,Low,MBOX mailbox. Unix mailbox format storing multiple emails.,Various
+533,vCard,.vcf,Contact,Cross-platform,Text,Yes,Low,vCard. Electronic business card format for contact information.,Various
+534,iCalendar,.ics,Calendar,Cross-platform,Text,Yes,Low,iCalendar. Standard format for calendar data exchange.,Various
+535,vCalendar,.vcs,Calendar,Cross-platform,Text,Yes,Low,"vCalendar. Legacy calendar format, predecessor to iCalendar.",Various
+536,OneNote,.one,Note,Windows,Binary,No,Low,OneNote notebook. Microsoft OneNote note-taking format.,Various
+537,Evernote,.enex,Note,Cross-platform,Text,Yes,Low,Evernote export. XML format for Evernote note export.,Various
+538,Notion Export,.zip,Note,Cross-platform,Binary,No,Low,Notion export. ZIP containing Markdown and HTML exports.,Various
+539,Mind Map,.mm,Visualization,Cross-platform,Text,Yes,Low,FreeMind map. XML-based mind mapping format.,Various
+540,MindManager,.mmap,Visualization,Cross-platform,Binary,No,Low,MindManager map. Mind mapping application format.,Various
+541,XMind,.xmind,Visualization,Cross-platform,Binary,No,Low,XMind map. Mind mapping and brainstorming format.,Various
+542,GraphML,.graphml,Visualization,Cross-platform,Text,Yes,Low,GraphML. XML-based graph description language.,Various
+543,DOT Graph,.dot,Visualization,Cross-platform,Text,Yes,Low,Graphviz DOT. Graph description language.,Various
+544,PlantUML,.puml,Visualization,Cross-platform,Text,Yes,Low,PlantUML diagram. Text-based UML diagram description.,Various
+545,Mermaid,.mmd,Visualization,Cross-platform,Text,Yes,Low,Mermaid diagram. JavaScript-based diagramming and charting.,Various
+546,Draw.io,.drawio,Visualization,Cross-platform,Text,Yes,Low,Draw.io diagram. XML-based diagram format.,Various
+547,Visio Drawing,.vsd,Visualization,Windows,Binary,No,Low,Visio drawing. Microsoft Visio legacy format.,Various
+548,Visio XML,.vsdx,Visualization,Cross-platform,Binary,No,Low,Visio modern. Microsoft Visio XML-based format.,Various
+549,OmniGraffle,.graffle,Visualization,macOS,Binary,No,Low,OmniGraffle document. macOS diagramming application format.,Various
+550,Sketch,.sketch,Design,macOS,Binary,No,Low,Sketch design. macOS interface design application format.,Various
+551,Figma,.fig,Design,Cross-platform,Binary,No,Low,Figma design. Collaborative interface design format.,Various
+552,Adobe XD,.xd,Design,Cross-platform,Binary,No,Low,Adobe XD design. UI/UX design and prototype format.,Various
+553,InVision,.studio,Design,Cross-platform,Binary,No,Low,InVision Studio. Screen design and prototyping format.,Various
+554,Adobe Illustrator,.ai,Design,Cross-platform,Binary,No,Low,Illustrator document. Vector graphics design format.,Various
+555,Adobe InDesign,.indd,Design,Cross-platform,Binary,No,Low,InDesign document. Page layout and desktop publishing.,Various
+556,QuarkXPress,.qxd,Design,Cross-platform,Binary,No,Low,QuarkXPress document. Desktop publishing format.,Various
+557,CorelDRAW,.cdr,Design,Windows,Binary,No,Low,CorelDRAW graphic. Vector graphics editor format.,Various
+558,Affinity Designer,.afdesign,Design,Cross-platform,Binary,No,Low,Affinity Designer. Vector graphic design format.,Various
+559,Affinity Photo,.afphoto,Design,Cross-platform,Binary,No,Low,Affinity Photo. Raster image editing format.,Various
+560,Affinity Publisher,.afpub,Design,Cross-platform,Binary,No,Low,Affinity Publisher. Page layout and publishing format.,Various
+561,Windows Metafile,.wmf,Graphics,Windows,Binary,No,Low,Windows Metafile. Legacy vector graphics format.,Various
+562,Enhanced Metafile,.emf,Graphics,Windows,Binary,No,Low,Enhanced Metafile. Improved Windows vector format.,Various
+563,Computer Graphics Metafile,.cgm,Graphics,Cross-platform,Binary/Text,Yes,Low,CGM. ISO standard for vector graphics interchange.,Various
+564,HP Graphics Language,.hpgl,Graphics,Cross-platform,Text,Yes,Low,HPGL. Plotter control language for vector graphics.,Various
+565,Printer Control Language,.pcl,Graphics,Cross-platform,Binary,No,Low,PCL. HP page description language for printers.,Various
+566,Font file,.ttf,Font,Cross-platform,Binary,No,Low,TrueType Font. Scalable font format.,Various
+567,OpenType Font,.otf,Font,Cross-platform,Binary,No,Low,OpenType Font. Advanced font format with typography features.,Various
+568,Web Open Font,.woff,Font,Cross-platform,Binary,No,Low,WOFF. Compressed font format for web use.,Various
+569,Web Open Font 2,.woff2,Font,Cross-platform,Binary,No,Low,WOFF2. Improved compression for web fonts.,Various
+570,Embedded OpenType,.eot,Font,Windows,Binary,No,Low,EOT. Legacy web font format for Internet Explorer.,Various
+571,Type 1 Font,.pfb,Font,Cross-platform,Binary,No,Low,PostScript Type 1. Legacy scalable font format.,Various
+572,Type 1 Metrics,.pfm,Font,Windows,Binary,No,Low,Type 1 metrics. Font metrics for Type 1 fonts.,Various
+573,Font Outline,.fon,Font,Windows,Binary,No,Low,Bitmap font. Legacy Windows bitmap font.,Various
+574,TrueType Collection,.ttc,Font,Cross-platform,Binary,No,Low,TrueType Collection. Multiple TrueType fonts in one file.,Various
+575,Unified Font Object,.ufo,Font,Cross-platform,Text,Yes,Low,UFO. Open source font development format.,Various
+576,Disk Image,.img,Image,Cross-platform,Binary,No,Low,Disk image. Raw disk or partition image.,Various
+577,Apple Disk Image,.dmg,Image,macOS,Binary,No,Low,DMG. Compressed disk image for macOS software distribution.,Various
+578,Virtual Disk,.vdi,Virtualization,Cross-platform,Binary,No,Medium,VirtualBox disk. VirtualBox virtual machine disk format.,Various
+579,VMware Disk,.vmdk,Virtualization,Cross-platform,Binary,No,Medium,VMware disk. VMware virtual machine disk format.,Various
+580,QEMU Disk,.qcow2,Virtualization,Cross-platform,Binary,No,Medium,QCOW2. QEMU copy-on-write disk image format.,Various
+581,Hyper-V Disk,.vhdx,Virtualization,Windows,Binary,No,Medium,Hyper-V disk. Microsoft virtual machine disk format.,Various
+582,Parallels Disk,.hdd,Virtualization,macOS,Binary,No,Medium,Parallels disk. Parallels Desktop virtual disk format.,Various
+583,NRG Disk,.nrg,Image,Cross-platform,Binary,No,Low,Nero image. Nero Burning ROM disk image format.,Various
+584,MDF Disk,.mdf,Image,Cross-platform,Binary,No,Low,Media Descriptor. Alcohol 120% disk image format.,Various
+585,BIN/CUE,.bin,Image,Cross-platform,Binary,No,Low,BIN/CUE image. CD/DVD image with CUE sheet.,Various
+586,CUE Sheet,.cue,Image,Cross-platform,Text,Yes,Low,CUE sheet. Describes layout of CD/DVD image file.,Various
+587,Toast,.toast,Image,macOS,Binary,No,Low,Toast image. Roxio Toast disk image for macOS.,Various
+588,Torrent,.torrent,P2P,Cross-platform,Binary,No,Low,BitTorrent metadata. Contains info for downloading via BitTorrent.,Various
+589,Magnet Link,.magnet,P2P,Cross-platform,Text,Yes,Low,Magnet link. URI scheme for P2P file sharing without torrent file.,Various
+590,Windows Shortcut,.lnk,Shortcut,Windows,Binary,No,Low,"Windows shortcut. Points to file, folder, or application.",Various
+591,URL Shortcut,.url,Shortcut,Windows,Text,Yes,Low,Internet shortcut. Points to web URL.,Various
+592,Desktop Entry,.desktop,Shortcut,Linux,Text,Yes,Low,Desktop entry. Linux application launcher shortcut.,Various
+593,macOS Alias,.alias,Shortcut,macOS,Binary,No,Low,macOS alias. Points to file or folder with tracking.,Various
+594,Shell Link,.webloc,Shortcut,macOS,Text,Yes,Low,Web location. macOS internet shortcut file.,Various
+595,License File,.lic,License,Cross-platform,Text/Binary,No,Medium,License file. Software license key or certificate.,Various
+596,PEM Certificate,.pem,Security,Cross-platform,Text,Yes,High,PEM certificate. Base64 encoded certificate or key.,Various
+597,Java KeyStore,.jks,Security,Cross-platform,Binary,No,Critical,Java KeyStore. Stores cryptographic keys and certificates.,Various
+598,PKCS12,.p12,Security,Cross-platform,Binary,No,Critical,PKCS12. Stores certificate and private key together.,Various
+599,GPG Signature,.sig,Security,Cross-platform,Binary,No,Medium,GPG signature. Cryptographic signature for file verification.,Various
+600,Checksum,.md5,Verification,Cross-platform,Text,Yes,Low,MD5 checksum. Hash value for file integrity verification.,Various
+601,SHA1 Checksum,.sha1,Verification,Cross-platform,Text,Yes,Low,SHA1 checksum. Cryptographic hash for verification.,Various
+602,SHA256 Checksum,.sha256,Verification,Cross-platform,Text,Yes,Low,SHA256 checksum. Secure hash for file verification.,Various
+603,SHA512 Checksum,.sha512,Verification,Cross-platform,Text,Yes,Low,SHA512 checksum. Highest security hash verification.,Various
+604,SFV Checksum,.sfv,Verification,Cross-platform,Text,Yes,Low,Simple File Verification. CRC32 checksums for multiple files.,Various
+605,PAR2 Recovery,.par2,Verification,Cross-platform,Binary,No,Low,PAR2. Parity archive for error correction and recovery.,Various
+606,M3U Playlist,.m3u,Playlist,Cross-platform,Text,Yes,Low,M3U playlist. Simple text-based media playlist.,Various
+607,M3U8 Playlist,.m3u8,Playlist,Cross-platform,Text,Yes,Low,"M3U8 playlist. UTF-8 encoded M3U, used for HLS streaming.",Various
+608,PLS Playlist,.pls,Playlist,Cross-platform,Text,Yes,Low,PLS playlist. INI-style media playlist format.,Various
+609,XSPF Playlist,.xspf,Playlist,Cross-platform,Text,Yes,Low,XSPF playlist. XML-based shareable playlist format.,Various
+610,WPL Playlist,.wpl,Playlist,Windows,Text,Yes,Low,Windows Media playlist. XML-based playlist for Windows Media.,Various
+611,ASX Playlist,.asx,Playlist,Windows,Text,Yes,Low,Advanced Stream Redirector. Playlist for streaming media.,Various
+612,CUE Playlist,.cue,Playlist,Cross-platform,Text,Yes,Low,CUE playlist. Describes tracks in audio files.,Various
+613,Saved Game,.sav,Game,Cross-platform,Binary,No,Low,Save file. Game progress and state data.,Various
+614,Game ROM,.rom,Game,Cross-platform,Binary,No,Low,ROM image. Video game cartridge dump.,Various
+615,NES ROM,.nes,Game,Cross-platform,Binary,No,Low,NES ROM. Nintendo Entertainment System game image.,Various
+616,SNES ROM,.smc,Game,Cross-platform,Binary,No,Low,SNES ROM. Super Nintendo game image.,Various
+617,Game Boy ROM,.gb,Game,Cross-platform,Binary,No,Low,Game Boy ROM. Nintendo Game Boy game image.,Various
+618,Game Boy Advance,.gba,Game,Cross-platform,Binary,No,Low,GBA ROM. Game Boy Advance game image.,Various
+619,Nintendo DS,.nds,Game,Cross-platform,Binary,No,Low,NDS ROM. Nintendo DS game image.,Various
+620,PlayStation,.bin,Game,Cross-platform,Binary,No,Low,PlayStation game. PS1 game CD image.,Various
+621,Unity Asset,.unity,Game,Cross-platform,Binary,No,Low,Unity scene. Unity game engine scene file.,Various
+622,Unreal Map,.umap,Game,Cross-platform,Binary,No,Low,Unreal map. Unreal Engine level file.,Various
+623,Source Map,.bsp,Game,Cross-platform,Binary,No,Low,BSP map. Binary Space Partition map for Source engine.,Various
+624,Minecraft World,.dat,Game,Cross-platform,Binary,No,Low,Minecraft data. NBT format game data.,Various
+625,Minecraft Region,.mca,Game,Cross-platform,Binary,No,Low,Minecraft region. Chunk data for Minecraft worlds.,Various
+626,Mod Package,.pak,Game,Cross-platform,Binary,No,Low,Package file. Game asset or mod package.,Various
+627,Valve Package,.vpk,Game,Cross-platform,Binary,No,Low,Valve package. Source engine asset package.,Various
+628,Unreal Package,.upk,Game,Cross-platform,Binary,No,Low,Unreal package. Unreal Engine 3 asset package.,Various
+629,Bethesda Plugin,.esp,Game,Windows,Binary,No,Low,Elder Scrolls plugin. Bethesda game mod file.,Various
+630,Bethesda Master,.esm,Game,Windows,Binary,No,Low,Elder Scrolls master. Bethesda game master data file.,Various

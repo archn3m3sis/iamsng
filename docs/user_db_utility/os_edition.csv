@@ -1,0 +1,51 @@
+os_edition_id,os_edition_name,os_edition_description
+1,Home,Consumer-focused edition with basic features for personal and household use
+2,Professional,Business-oriented edition with advanced features for professionals and small businesses
+3,Enterprise,Full-featured edition designed for large organizations with advanced management and security capabilities
+4,Ultimate,Premium edition with all available features and capabilities; highest tier consumer offering
+5,Starter,Entry-level edition with limited features for budget-conscious users or emerging markets
+6,Standard,Mid-tier edition balancing features and cost for general business use
+7,Datacenter,High-end server edition optimized for large-scale virtualization and cloud infrastructure
+8,Workstation,High-performance edition optimized for content creation technical computing and advanced workloads
+9,Education,Special edition for academic institutions students and educators with educational licensing
+10,Server,General server edition for hosting services applications and network infrastructure
+11,Desktop,Standard desktop edition for workstation and personal computer use
+12,Core,Minimal installation edition without GUI for reduced resource usage and attack surface
+13,Community,Free community-supported edition typically for non-commercial use
+14,Developer,Edition with development tools and features for software developers and programmers
+15,LTS,Long Term Support edition with extended support lifecycle and stability focus
+16,IoT,Internet of Things edition optimized for embedded devices and edge computing
+17,Embedded,Specialized edition for embedded systems industrial automation and dedicated appliances
+18,Mobile,Edition designed for smartphones tablets and mobile computing devices
+19,Server Core,Minimal server installation without graphical interface for improved security and performance
+20,Web,Server edition optimized specifically for web hosting and internet-facing applications
+21,Storage,Specialized edition optimized for file servers and storage area networks
+22,HPC,High Performance Computing edition for scientific computing and computational clusters
+23,Pro for Workstations,Enhanced professional edition with support for high-end hardware and advanced computing
+24,Small Business,Edition tailored for small business environments with simplified management features
+25,Premium,Enhanced consumer edition with additional features beyond standard offering
+26,Basic,Simplified edition with core functionality for basic computing needs
+27,Evaluation,Time-limited trial edition for testing and evaluation purposes before purchase
+28,OEM,Original Equipment Manufacturer edition pre-installed on hardware by manufacturers
+29,Retail,Full retail edition sold through commercial channels with transferable licensing
+30,Volume License,Edition for organizations purchasing multiple licenses with centralized management
+31,Cloud,Edition optimized for cloud deployment and multi-tenant environments
+32,Hyper-V,Server edition focused on virtualization and hypervisor functionality
+33,Essentials,Small business server edition with user/device limitations and simplified management
+34,Foundation,Entry-level server edition with hardware limitations for small businesses
+35,ARM,Edition compiled for ARM processor architecture for mobile and embedded devices
+36,Minimal,Stripped-down installation with only essential components for specialized deployments
+37,Live,Bootable edition that runs from external media without installation for testing or recovery
+38,Rescue,Specialized edition for system recovery troubleshooting and data rescue operations
+39,Thin Client,Lightweight edition optimized for thin client devices and virtual desktop infrastructure
+40,Container,Optimized edition for containerized applications and microservices architectures
+41,Academic,Special licensing edition for educational institutions with volume discounts
+42,NFR,Not For Resale edition provided to partners vendors or for demonstration purposes
+43,Beta,Pre-release edition for testing new features before general availability
+44,Preview,Early access edition showcasing upcoming features for feedback and evaluation
+45,Insider,Continuous update edition for early adopters testing cutting-edge features
+46,Stable,Production-ready edition with thoroughly tested features and long-term stability
+47,Testing,Edition containing features undergoing validation before stable release
+48,Unstable,Bleeding-edge edition with latest untested features for developers and testers
+49,Rolling Release,Continuously updated edition without distinct version releases
+50,Extended Security,Edition receiving extended security updates beyond standard support lifecycle

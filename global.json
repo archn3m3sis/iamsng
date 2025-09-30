@@ -1,0 +1,13 @@
+{
+  "sdk": {
+    "version": "8.0.414",
+    "rollForward": "latestPatch",
+    "allowPrerelease": false
+  },
+  "comments": [
+    "This file locks the SDK version to .NET 8.0 LTS for DoD compliance",
+    "FIPS 140-3 and STIG requirements mandate stable, non-preview versions",
+    "rollForward: latestPatch allows patch updates (8.0.x) but not major/minor",
+    "allowPrerelease: false prevents any preview SDK usage"
+  ]
+}
